@@ -13,7 +13,7 @@
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/clocker.jpg" align="left" width="128" height="72"> <br>
 <a href="https://www.bilibili.com/read/cv15040632"> 铸时匠——错位时空，爱为羁绊</a> </div> <br>
 <div>
-<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/moncage.jpg" align="left" width="128" height="72"> <br> &emsp;
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/moncage.jpg" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv17390831">笼中窥梦——于笼中窥梦，于梦中解脱</a> </div> <br>
 
 
