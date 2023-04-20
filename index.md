@@ -20,5 +20,26 @@
 
 *[听雨，觅光](https://www.bilibili.com/read/cv20673945)*
 
-稍后更新 敬请期待
+### 技术专栏
 
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/gplt.jpg" align="left" width="128" height="72">
+
+*[第六届GPLT团体程序设计天梯赛题解](https://blog.csdn.net/qq_38582001/article/details/116209390)*
+
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/acm%20game.png" align="left" width="128" height="72">
+
+*[北京信息科技大学第十三届程序设计竞赛暨ACM选拔赛题解](https://blog.csdn.net/qq_38582001/article/details/120924596)*
+
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/games201.png" align="left" width="128" height="72">
+
+*[GAMES201笔记](https://www.zhihu.com/column/c_1541903438736973824)*
+
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/dynamic%20bone.jpg" align="left" width="128" height="72">
+
+[Dynamic Bone 系列源码简析](https://www.zhihu.com/column/c_1617197377449558016)
+
+### 偶有所记
+
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/images/acm%20bye.webp" align="left" width="128" height="72">
+
+[ACM退役记](https://zhuanlan.zhihu.com/p/592697504)
