@@ -1,7 +1,7 @@
 ### 游戏推荐
 
 <div>
-<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/alter%20ego.png" align="left" width="128" height="72"> <br> &ensp;
+<img src="https://www.imagehub.cc/image/fbrCnO" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv11506040">ALTER EGO系列——在幽邃中探寻书籍和自我的内心</a> </div> <br>
 
 <div>
@@ -36,10 +36,10 @@
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/games201.png" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.zhihu.com/column/c_1541903438736973824">GAMES201：高级物理引擎实战指南笔记</a> </div> <br>
-
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/dynamic%20bone.jpg" align="left" width="128" height="72"> <br> &ensp;
-<a href="https://www.zhihu.com/column/c_1617197377449558016">Dynamic Bone 系列源码简析</a> </div> <br>
+<a href="https://www.zhihu.com/column/c_1617197377449558016">Dynamic Bone系列源码简析</a> </div> <br>
+
 
 
 
