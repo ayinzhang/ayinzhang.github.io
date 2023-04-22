@@ -4,12 +4,12 @@
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/alter%20ego.png" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv11506040">ALTER EGO系列</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv11506040">在幽邃中探寻书籍和自我的内心</a> 
-</div> <br>
-
+<br> </div>
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/monument%20valley.png" align="left" width="128" height="72"> <br> &ensp;
-<a href="https://www.bilibili.com/read/cv12308688">纪念碑谷系列——漫游于异想空间的视觉艺术</a> <br> </div>
+<a href="https://www.bilibili.com/read/cv12308688">纪念碑谷系列——漫游于异想空间的视觉艺术</a> </div> <br>
+
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/clocker.jpg" align="left" width="128" height="72"> <br> &ensp;
