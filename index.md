@@ -1,6 +1,6 @@
-## 凡是过往，皆为序章
+<h1>凡是过往，皆为序章</h1>
 
-### 游戏推荐
+<h3>游戏推荐</h3>
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/alter%20ego.png" align="left" width="128" height="72"> <br> &ensp;
@@ -13,8 +13,6 @@
 <a href="https://www.bilibili.com/read/cv12308688">纪念碑谷系列</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv12308688">漫游于异想空间的视觉艺术</a> 
 <br> <br> </div>
-
-
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/clocker.jpg" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv15040632">铸时匠</a> <br> &ensp;
@@ -32,8 +30,7 @@
 <a href="https://www.bilibili.com/read/cv20673945">雨纪</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv20673945">听雨，觅光</a> 
 <br> <br> </div>
-
-### 技术专栏
+<h3>技术专栏</h3>
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/gplt.jpg" align="left" width="128" height="72"> <br> &ensp;
@@ -50,10 +47,8 @@
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/dynamic%20bone.jpg" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.zhihu.com/column/c_1617197377449558016">Dynamic Bone系列源码简析</a> <br> <br> <br> </div>
-
-### 偶有所记
+<h3>偶有所记</h3>
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/acm%20bye.webp" align="left" width="128" height="72"/> <br> &ensp;
 <a href="https://zhuanlan.zhihu.com/p/592697504">ACM退役记</a> <br> <br> <br> </div>
-
