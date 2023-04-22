@@ -1,7 +1,7 @@
 ### 游戏推荐
 
 <div>
-<img src="https://www.imagehub.cc/image/fbrCnO" align="left" width="128" height="72"> <br> &ensp;
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/alter%20ego.png" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv11506040">ALTER EGO系列——在幽邃中探寻书籍和自我的内心</a> </div> <br>
 
 <div>
