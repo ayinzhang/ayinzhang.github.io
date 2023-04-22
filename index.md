@@ -1,4 +1,4 @@
-<embed src="assets/songs/ハロ／ハワユ.mp3" autostart="true" loop="true" hidden="true"></embed>
+<bgsound src="assets/songs/ハロ／ハワユ.mp3" autostart=true loop=infinite>
 
 <h3>游戏推荐</h3>
 
