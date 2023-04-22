@@ -1,11 +1,11 @@
 ---
 ---
-@import "jekyll-theme-architect";
+@import "{{ site.theme }}";
 
 @font-face 
 {
     font-family: "FONT";
-    src: url("/fonts/font.ttf");
+    src: url("/fonts/汉仪青云简.ttf");
 }
 
 body 
