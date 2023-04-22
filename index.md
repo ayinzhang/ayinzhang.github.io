@@ -1,4 +1,4 @@
-<audio src="assets/songs/ハロ／ハワユ.mp3" autoplay="autoplay" preload="auto" hidden="true"></audio>
+<audio autoplay="" loop=""> <source src="assets/songs/ハロ／ハワユ.mp3"></audio>
 
 <h3>游戏推荐</h3>
 
