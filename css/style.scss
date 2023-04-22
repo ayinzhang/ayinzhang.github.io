@@ -1,0 +1,21 @@
+---
+---
+@import "{{ site.theme }}";
+
+@font-face 
+{
+    font-family: "FONT";
+    src: url("/fonts/汉仪青云简.ttf");
+}
+
+body 
+{
+    font-family: "FONT";
+    font-size: 20px;
+}
+
+blockquote 
+{
+    font-style: normal;
+    font-size: 80%;
+}
