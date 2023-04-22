@@ -1,7 +1,6 @@
+<embed src="assets/songs/ハロ／ハワユ.mp3" autostart="true" loop="true" hidden="false"></embed>
+
 <h2>凡是过往，皆为序章</h2>
-<audio src="assets/songs/ハロ／ハワユ.mp3" id="aud" autoplay="autoplay" controls="controls" preload="auto"></audio>
-
-
 
 <h3>游戏推荐</h3>
 
