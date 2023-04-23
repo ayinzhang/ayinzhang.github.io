@@ -1,5 +1,5 @@
 ```text
-<audio src="assets/songs/ハロ／ハワユ.mp3" controls autoplay></audio>
+<audio autoplay="autoplay" preload="auto" src="assets/songs/ハロ／ハワユ.mp3"> </audio>
 ```
 
 <h3>游戏推荐</h3>
