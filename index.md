@@ -10,11 +10,13 @@
 <a href="https://www.bilibili.com/read/cv11506040">ALTER EGO系列</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv11506040">在幽邃中探寻书籍和自我的内心</a> 
 <br> <br> </div>
+
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/monument%20valley.png" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv12308688">纪念碑谷系列</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv12308688">漫游于异想空间的视觉艺术</a> 
 <br> <br> </div>
+
 
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/clocker.jpg" align="left" width="128" height="72"> <br> &ensp;
@@ -33,8 +35,6 @@
 <a href="https://www.bilibili.com/read/cv20673945">雨纪</a> <br> &ensp;
 <a href="https://www.bilibili.com/read/cv20673945">听雨，觅光</a> 
 <br> <br> </div>
-
-
 <h3>技术专栏</h3>
 
 <div>
@@ -48,10 +48,13 @@
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/games201.png" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.zhihu.com/column/c_1541903438736973824">GAMES201：高级物理引擎实战指南笔记</a> <br> <br> <br> </div>
-
 <div>
 <img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/dynamic%20bone.jpg" align="left" width="128" height="72"> <br> &ensp;
 <a href="https://www.zhihu.com/column/c_1617197377449558016">Dynamic Bone系列源码简析</a> <br> <br> <br> </div>
+<div>
+<img src="https://raw.githubusercontent.com/ayinzhang/ayinzhang.github.io/main/assets/images/burst.jpg" align="left" width="128" height="72"> <br> &ensp;
+<a href="https://zhuanlan.zhihu.com/p/630768369">Unity Burst + Job 初探</a> <br> <br> <br> </div>
+
 <h3>偶有所记</h3>
 
 <div>

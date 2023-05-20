@@ -12,6 +12,7 @@ ALTER EGO系列在幽邃中探寻书籍和自我的内心
 北京信息科技大学第十三届程序设计竞赛暨ACM选拔赛题解
 GAMES201：高级物理引擎实战指南笔记
 Dynamic Bone系列源码简析
+Unity Burst + Job 初探
 
 偶有所记
 ACM退役记
