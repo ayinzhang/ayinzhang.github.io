@@ -1,5 +1,13 @@
 <!-- Footer -->
 <footer>
+    <!--APlayer-->
+    <script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+    <meting-js server="tencent" type="song" id="003LdIc52DhvPI" fixed="true"></meting-js>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -16,14 +24,14 @@
                     {% endif %}
                     <!-- add jianshu add target = "_blank" to <a> by BY -->
                     {% if site.jianshu_username %}
-                            <li>
-                                <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa  fa-stack-1x fa-inverse">简</i>
-                                    </span>
-                                </a>
-                            </li>
+                    <li>
+                        <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">简</i>
+                            </span>
+                        </a>
+                    </li>
                     {% endif %}
                     {% if site.twitter_username %}
                     <li>
@@ -94,10 +102,9 @@
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
                     Theme on <a href="{{ site.github_repo }}">GitHub</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;"
+                            frameborder="0" scrolling="0" width="100px" height="20px"
+                            src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true">
                     </iframe>
                 </p>
             </div>
