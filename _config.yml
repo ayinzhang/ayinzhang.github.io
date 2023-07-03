@@ -1,9 +1,9 @@
 # Site settings
-title: TimeTraveler
-SEOTitle: 翼轸的博客
+title: ayinzhang
+SEOTitle: 翼轸的博客 | AZ blog
 header-img: img/title.jpg
 email: 1242857339.com
-description: "凡所过往，皆为序章"
+description: "What's past is prologue"
 url: "http://ayinzhang.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ayinzhang/ayinzhang.github.io.git" # you code repository
