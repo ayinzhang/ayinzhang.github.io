@@ -1,6 +1,6 @@
 # Site settings
-title: ayinzhang
-SEOTitle: 翼轸的博客 | AZ blog
+title: Ayin
+SEOTitle: Ayin's blog
 header-img: img/title.jpg
 email: 1242857339.com
 description: "What's past is prologue"
@@ -18,7 +18,7 @@ sidebar-avatar: /img/me.png      # use absolute URL, seeing it's used in both `/
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     翼轸
+zhihu_username:    jhgvj-86
 github_username:    ayinzhang
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
