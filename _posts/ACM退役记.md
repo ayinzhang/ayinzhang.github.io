@@ -1,4 +1,3 @@
-```yaml
 ---
 layout:     post
 title:      ACM退役记
@@ -11,12 +10,13 @@ tags:
     - ACM
     - 杂记
 ---
-```
 
 ​    ACM/ICPC亚洲区域赛2022赛季的结束了，大三老东西也该退了。惯例上段小作文，纪念下我坎坷的ACM经历。
 
-![img](https://picx.zhimg.com/80/v2-74d4ba1d8aea06ebcb098d8ba88286c5_720w.png?source=d16d100b "拿银跑路")
-
+<div align=center>
+<img src="https://picx.zhimg.com/80/v2-74d4ba1d8aea06ebcb098d8ba88286c5_720w.png?source=d16d100b"/>
+<center><p>拿银跑路</p></center>
+</div> 
 
 
 ## 前缘
@@ -25,25 +25,29 @@ tags:
 
 ​    当时就对计算机展现出莫大兴趣，加之一直想做游戏，高考果断以专业优先来了东秦计算机。当年学校整游戏的社团垮了，同时在对床一位刷招新百题的室友那了解到了ACM竞赛。感觉很有趣的样子，但我甚至连暑假集训营没上......于是图书馆猛肝三天，榜冲的那叫一个快，进群后就被叫做卷佬收割一片Orz（也补了很多C++的基础知识倒是，想当初一道a+b的多组输入搜不到都冥思苦想了半天）
 
-![img](https://pic1.zhimg.com/80/v2-6821a8b7034bc1558d5546f24ea9e425_720w.jpeg?source=d16d100b "梦开始的地方")
+<div align=center>
+<img src="https://pic1.zhimg.com/80/v2-6821a8b7034bc1558d5546f24ea9e425_720w.jpeg?source=d16d100b"/>
+<center><p>梦开始的地方</p></center>
+</div> 
 
-
-
-![img](https://pic1.zhimg.com/80/v2-6dba3bc047d2ac5be6f594779cf38a65_720w.png?source=d16d100b "榜4和榜10，当年准备招新赛成果")
-
-
+<div align=center>
+<img src="https://pic1.zhimg.com/80/v2-6dba3bc047d2ac5be6f594779cf38a65_720w.png?source=d16d100b"/>
+<center><p>榜4和榜10，当年准备招新赛成果</p></center>
+</div> 
 
 ## 首年
 
 ​    补完C++语法顺利进入ACM俱乐部，之后主要跟着洛谷的题单刷基础算法：数据结构，图论，数论，动归......校程序竞赛堪堪打了个校二，不过之后个人天梯赛打了国三，蓝桥杯C++A组省一打进了国赛（虽然就没有后续了）。也组到了两个队友，向着竞赛队和之后的XCPC准备。大一阶段可以说是我最投入的算法竞赛的时间段了，付出了许多时间精力，但也收获颇丰。
 
-![img](https://pic1.zhimg.com/80/v2-2c95a8b66a2f9078bb4d98186c249f73_720w.jpeg?source=d16d100b "天梯赛")
+<div align=center>
+<img src="https://pic1.zhimg.com/80/v2-2c95a8b66a2f9078bb4d98186c249f73_720w.jpeg?source=d16d100b"/>
+<center><p>天梯赛</p></center>
+</div> 
 
-
-
-![img](https://pic1.zhimg.com/80/v2-69037e15e77132a82d018a4699aa5fa4_720w.jpeg?source=d16d100b "蓝桥杯国赛")
-
-
+<div align=center>
+<img src="https://pic1.zhimg.com/80/v2-69037e15e77132a82d018a4699aa5fa4_720w.jpeg?source=d16d100b"/>
+<center><p>蓝桥杯国赛</p></center>
+</div> 
 
 ## 次年
 
@@ -53,21 +57,25 @@ tags:
 
 ​    团队赛河北省二，基本个人单挑，属于竞赛队的保底水平了。唯一突破是个人蓝桥杯C++A组国二，算是挺意外的......毕竟都开摆了。后来直接散了原来的队，要了竞赛队长推荐的俩大一OI爷开始养成。中途蹭到了一次半自费的ICPC澳门（学弟和我各开一道并出了另一道的正解思路，输在了时间和细节处理上，不然直接四题银牌区），可惜最后铁了。目标退役拿铜，不过就算没有好像自己也能接受。
 
-![img](https://pica.zhimg.com/80/v2-14963e66253ccb59d54a8f3ac3f7b0ac_720w.jpeg?source=d16d100b "最初的队")
 
-
+<div align=center>
+<img src="https://pica.zhimg.com/80/v2-14963e66253ccb59d54a8f3ac3f7b0ac_720w.jpeg?source=d16d100b"/>
+<center><p>最初的队</p></center>
+</div> 
 
 ## 末年
 
 ​    暑期打多校时突然有求组信息，然后......学弟被说动了，就替掉了学妹，又组了只新队，保铜冲银。两个队友都挺能抢机的，我就选择了翻译读题（两个队友没过六级，我六级GRE），口胡思路（都读了题了这不即兴来段），数学构造（图形学加成，外加这个主思路不怎么占机时）。前面的网络赛还好，甚至还为学校多拿了个ICPC名额，不过省赛打炸了，虽然省一但校排很差，校内名额分配时只拿了三场的名额，考虑到多训练会特地选的后面的赛站，分别是CCPC绵阳，ICPC杭州，ICPC南京。结果倒挺不错，CCPC绵阳铜（差一题，后半场楞是没开出题来），ICPC杭州铜（差罚时，属于太菜了技输一筹），ICPC南京银（圆梦！三阳开泰，不枉酒店住了两周多和后期的头晕咽痛）。
 
-![img](https://pica.zhimg.com/80/v2-beaf3ade2753a911a88d028338e4784a_720w.png?source=d16d100b "还没意识到问题的我")
+<div align=center>
+<img src="https://pica.zhimg.com/80/v2-beaf3ade2753a911a88d028338e4784a_720w.png?source=d16d100b"/>
+<center><p>还没意识到问题的我</p></center>
+</div> 
 
-
-
-![img](https://pica.zhimg.com/80/v2-4bf3931f4b2f4ffeff8d75c19f01cdec_720w.png?source=d16d100b "依旧没意识到问题的我")
-
-
+<div align=center>
+<img src="https://pica.zhimg.com/80/v2-4bf3931f4b2f4ffeff8d75c19f01cdec_720w.png?source=d16d100b"/>
+<center><p>依旧没意识到问题的我</p></center>
+</div> 
 
 ## 后记
 
@@ -77,10 +85,14 @@ tags:
 
 ​    用大一时一道题面作结吧，你又是否有一段能扔掉一切，去追寻自己喜欢事物的时光呢？
 
-![img](https://picx.zhimg.com/80/v2-1be879d7ddd487f2880eee56b1583297_720w.jpeg?source=d16d100b "我也想知道出处...")
-
-
+<div align=center>
+<img src="https://picx.zhimg.com/80/v2-1be879d7ddd487f2880eee56b1583297_720w.jpeg?source=d16d100b"/>
+<center><p>我也想知道出处...</p></center>
+</div> 
 
 ​    回顾起来，才发觉自己已走出很远，个中艰辛唯有自知。最后的最后，感谢我两位队友，一位给了我希望，一位说服我冲最后半年。可惜差一名进EC打线下赛，队伍打的赛站全是线上，还是有些许的遗憾。
 
-![img](https://picx.zhimg.com/80/v2-e6256ac7c5eb7a709942a3a53e434cbd_720w.jpeg?source=d16d100b "AC快才是真的怪！")
+<div align=center>
+<img src="https://picx.zhimg.com/80/v2-e6256ac7c5eb7a709942a3a53e434cbd_720w.jpeg?source=d16d100b"/>
+<center><p>AC快才是真的怪！</p></center>
+</div> 
