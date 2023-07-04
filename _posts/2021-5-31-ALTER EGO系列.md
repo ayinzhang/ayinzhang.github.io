@@ -33,25 +33,25 @@ p.s 日语不行的也可以挂个翻译器赏玩......
 ​    在游戏中通过看书挂机，点按不断产生的书籍随感，收集ES旁的蓝色蝴蝶以获得ALTER EGO。（游戏中的点数，用以阅读书籍和与ES交谈，或测试心理，或探讨问题）。游戏中你的的选择影响了ES的自我，进而会影响游戏的结局（但实际上你的选择同样也会被ES的提问所影响）
 
 <div align=center>
-<img src="https://sm.ms/image/TdKbsplx5jnoNVm" width = "50%" height = "50%"/>
+<img src="https://s2.loli.net/2023/07/05/TdKbsplx5jnoNVm.jpg" width = "50%" height = "50%"/>
 <center><p>读书与反思</p></center>
 </div> 
 
 
 
 <div align=center>
-<img src="https://sm.ms/image/qFNApKLmxEMPng7" width = "50%" height = "50%"/>
+<img src="https://s2.loli.net/2023/07/05/qFNApKLmxEMPng7.jpg" width = "50%" height = "50%"/>
 <center><p>与ES交流</p></center>
 </div> 
 
 
 <div align=center>
-<img src="https://sm.ms/image/MdcrfG1XnCj4msx" width = "50%" height = "50%"/>
+<img src="https://s2.loli.net/2023/07/05/MdcrfG1XnCj4msx.jpg" width = "50%" height = "50%"/>
 <center><p>读书记录</p></center>
 </div> 
 
 <div align=center>
-<img src="https://sm.ms/image/hBtrq2oNkXPxaAp" width = "50%" height = "50%"/>
+<img src="https://s2.loli.net/2023/07/05/hBtrq2oNkXPxaAp.jpg" width = "50%" height = "50%"/>
 <center><p>测试记录</p></center>
 </div> 
 
@@ -93,29 +93,29 @@ PS：最后一本书是不可能读完的......那就正好一直探寻下去吧
 
 ## 三、 ALTER EGO COMPLEX：相遇之前的，ES的梦
 
-![img](https://sm.ms/image/Ts5AghVfUOo9YZe)
+![img](https://s2.loli.net/2023/07/05/Ts5AghVfUOo9YZe.png)
 
 ​    游戏流程大抵与原作相似，共有六个ES的梦境，三个小游戏。（以及最后的彩蛋部分？）直感游戏中“孤独”的氛围刻画的很深，艾丝想要和旅人在一起，牵着旅人的手。但每当快要如愿时，梦境却总会在此中断。
 
-![img](https://sm.ms/image/xXsb89zuClvHjeT)
+![img](https://s2.loli.net/2023/07/05/xXsb89zuClvHjeT.jpg)
 
-![img](https://sm.ms/image/tOL276ZW9QvxPou)
+![img](https://s2.loli.net/2023/07/05/tOL276ZW9QvxPou.jpg)
 
-![img](https://sm.ms/image/yPKcrHvo5LQWFZb)
+![img](https://s2.loli.net/2023/07/05/yPKcrHvo5LQWFZb.jpg)
 
-![img](https://sm.ms/image/Y38cgnImb67ehMw)
+![img](https://s2.loli.net/2023/07/05/Y38cgnImb67ehMw.jpg)
 
 ## 四、 ALTER EGO S：原作的switch移植版
 
 ​    就目前考察来看，相较原版增加了一些细节。如ES的动作神态，书籍可以阅读整本等......(别问，问就是没有switch)。
 
-![img](https://sm.ms/image/j7ZbiODTJIvfrRA)
+![img](https://s2.loli.net/2023/07/05/j7ZbiODTJIvfrRA.jpg)
 
-![img](https://sm.ms/image/sChQbyPGtaVpZAu)
+![img](https://s2.loli.net/2023/07/05/sChQbyPGtaVpZAu.jpg)
 
-![img](https://sm.ms/image/pC3jwSfBNKca8Ak)
+![img](https://s2.loli.net/2023/07/05/pC3jwSfBNKca8Ak.jpg)
 
-![img](https://sm.ms/image/feUHKan6lz7DI85)
+![img](https://s2.loli.net/2023/07/05/feUHKan6lz7DI85.jpg)
 
 ## 五、 写在最后
 
