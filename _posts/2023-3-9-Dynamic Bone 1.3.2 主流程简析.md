@@ -4,7 +4,7 @@ title:      Dynamic Bone 1.3.2 主流程简析
 subtitle:   经典正向运动学模拟算法
 date:       2023-3-9
 author:     Ayin
-header-img: img/dynamic bone.jpg
+header-img: img/tag.jpg
 catalog: 	 true
 tags:
     - Unity
