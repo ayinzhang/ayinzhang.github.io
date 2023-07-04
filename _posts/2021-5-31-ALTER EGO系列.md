@@ -33,24 +33,25 @@ p.s 日语不行的也可以挂个翻译器赏玩......
 ​    在游戏中通过看书挂机，点按不断产生的书籍随感，收集ES旁的蓝色蝴蝶以获得ALTER EGO。（游戏中的点数，用以阅读书籍和与ES交谈，或测试心理，或探讨问题）。游戏中你的的选择影响了ES的自我，进而会影响游戏的结局（但实际上你的选择同样也会被ES的提问所影响）
 
 <div align=center>
-<img src="https://article.biliimg.com/bfs/article/78f8f800325e09234eb545c140ef295e760dba5d.jpg" width = "50%" height = "50%"/>
+<img src="https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/78f8f800325e09234eb545c140ef295e760dba5d.jpg" width = "50%" height = "50%"/>
 <center><p>读书与反思</p></center>
 </div> 
 
 
 
 <div align=center>
-<img src="https://article.biliimg.com/bfs/article/8bb4ab021aaefce00fa8be34efa44513483820ad.jpg" width = "50%" height = "50%"/>
+<img src="https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/8bb4ab021aaefce00fa8be34efa44513483820ad.jpg" width = "50%" height = "50%"/>
 <center><p>与ES交流</p></center>
 </div> 
 
+
 <div align=center>
-<img src="https://article.biliimg.com/bfs/article/465ec1efc1766a3a066cafc0548d5dc63f3bf7f4.jpg" width = "50%" height = "50%"/>
+<img src="https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/465ec1efc1766a3a066cafc0548d5dc63f3bf7f4.jpg" width = "50%" height = "50%"/>
 <center><p>读书记录</p></center>
 </div> 
 
 <div align=center>
-<img src="https://article.biliimg.com/bfs/article/ab88c02ef33675336ad393a86b4b4ae214dc0324.jpg" width = "50%" height = "50%"/>
+<img src="https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/ab88c02ef33675336ad393a86b4b4ae214dc0324.jpg" width = "50%" height = "50%"/>
 <center><p>测试记录</p></center>
 </div> 
 
@@ -92,29 +93,29 @@ PS：最后一本书是不可能读完的......那就正好一直探寻下去吧
 
 二、 ALTER EGO COMPLEX：相遇之前的，ES的梦
 
-![img](https://article.biliimg.com/bfs/article/09cbddc6bec70a9910827ae0344c225e8f8b8ab0.png)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/09cbddc6bec70a9910827ae0344c225e8f8b8ab0.png)
 
 ​    游戏流程大抵与原作相似，共有六个ES的梦境，三个小游戏。（以及最后的彩蛋部分？）直感游戏中“孤独”的氛围刻画的很深，艾丝想要和旅人在一起，牵着旅人的手。但每当快要如愿时，梦境却总会在此中断。
 
-![img](https://article.biliimg.com/bfs/article/f9859c83825902a8dbb99d98b8cc3bf886142df3.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/f9859c83825902a8dbb99d98b8cc3bf886142df3.jpg)
 
-![img](https://article.biliimg.com/bfs/article/bcaabb5a65b71a6f90a7c177a7fd8cfa226a0d88.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/bcaabb5a65b71a6f90a7c177a7fd8cfa226a0d88.jpg)
 
-![img](https://article.biliimg.com/bfs/article/fffda9cb6b11cc66f6f61250c4ade61364584324.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/fffda9cb6b11cc66f6f61250c4ade61364584324.jpg)
 
-![img](https://article.biliimg.com/bfs/article/ed68b62990d1642e203f1cac0b354e09c7d3ab74.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/ed68b62990d1642e203f1cac0b354e09c7d3ab74.jpg)
 
 四、 ALTER EGO S：原作的switch移植版
 
 ​    就目前考察来看，相较原版增加了一些细节。如ES的动作神态，书籍可以阅读整本等......(别问，问就是没有switch)。
 
-![img](https://article.biliimg.com/bfs/article/724320a8f3601adbd1c18f2564ebbf648f0e71e6.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/724320a8f3601adbd1c18f2564ebbf648f0e71e6.jpg)
 
-![img](https://article.biliimg.com/bfs/article/1b1c715a584f2dbd6efbe694a861b2e21e5bab31.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/1b1c715a584f2dbd6efbe694a861b2e21e5bab31.jpg)
 
-![img](https://article.biliimg.com/bfs/article/cd76d6008ddc168edca22be781b5e8720ace9c85.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/cd76d6008ddc168edca22be781b5e8720ace9c85.jpg)
 
-![img](https://article.biliimg.com/bfs/article/4b5d24e1dc8ad59021fe8123779787d380485d35.jpg)
+![img](https://github.com/ayinzhang/ayinzhang.github.io/blob/main/img/4b5d24e1dc8ad59021fe8123779787d380485d35.jpg)
 
 五、 写在最后
 
