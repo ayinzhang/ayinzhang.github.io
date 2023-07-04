@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Dynamic Bone 1.3.2 主流程简析
+title:      Dynamic Bone 简析
 subtitle:   经典正向运动学模拟算法
 date:       2023-3-9
 author:     Ayin
@@ -894,4 +894,4 @@ void LateUpdate()
 
 该插件上次更新1.3.2版本还是一年多前，现在应该是入土了吧。解析Dynamic bone的文章前面已有许多（但没有新版），所以我务于全，展现了该脚本整个基本流程函数（其他未展现的流程函数基本也都调用前文出现过的子函数），希望对读者能有些许帮助。
 
-总体而言，开始先构造了骨骼的链式结构，记录本地坐标，之后由根到尾一级一级的应用惯性，摩擦，外力，弹力，刚度处理更新位置。如果仍有疑惑，也可移步知乎其他文章。如核心代码的详解：[DynamicBone（动态骨骼）源码赏析（1） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/522873426)，模拟算法的讲解：[动态骨骼Dynamic Bone算法详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/49188230)。
+总体而言，开始先构造了骨骼的链式结构，记录本地坐标，之后由根到尾一级一级的应用惯性，摩擦，外力，弹力，刚度处理更新位置。如果仍有疑惑，也可移步知乎其他文章。如核心代码的详解：[DynamicBone（动态骨骼）源码赏析](https://zhuanlan.zhihu.com/p/522873426)，模拟算法的讲解：[动态骨骼Dynamic Bone算法详解 ](https://zhuanlan.zhihu.com/p/49188230)。
