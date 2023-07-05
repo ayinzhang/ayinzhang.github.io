@@ -11,13 +11,13 @@ tags:
     - 物理模拟
 ---
 
-## 前言：
+### 前言：
 
 &emsp;&emsp;最近接实习公司需求整Dynamic Bone，虽然因Dynamic Bone中节点距离恒定，布料模拟方面Magica Cloth效果远甚Dynamic Bone（然而性能消耗上也是），但Dynamic Bone的算法也算得上经典，也值得一写。
 
-## 正文：
+### 正文：
 
-### DataStruct
+#### DataStruct
 
 ```c#
     public Transform m_Root = null;//裁切参照
@@ -152,7 +152,7 @@ tags:
     static int s_PrepareFrame;//准备帧
 ```
 
-### Start() 
+#### Start() 
 
 ```c#
     void Start()
@@ -161,7 +161,7 @@ tags:
     }
 ```
 
-#### SetupParticles()
+##### SetupParticles()
 
 ```C#
     public void SetupParticles()
@@ -202,7 +202,7 @@ tags:
     }
 ```
 
-#### AppendParticleTree()
+##### AppendParticleTree()
 
 ```C#
     void AppendParticleTree(Transform root)
@@ -292,7 +292,7 @@ tags:
     }
 ```
 
-#### UpdateParameters()
+##### UpdateParameters()
 
 ```C#
     public void UpdateParameters()
@@ -347,7 +347,7 @@ tags:
     }
 ```
 
-### Update()
+#### Update()
 
 ```C#
 void Update()
@@ -368,7 +368,7 @@ void Update()
     }
 ```
 
-#### PreUpdate()
+##### PreUpdate()
 
 ```C#
     void PreUpdate()
@@ -381,7 +381,7 @@ void Update()
     }
 ```
 
-#### InitTransforms()
+##### InitTransforms()
 
 ```C#
 void InitTransforms()
@@ -407,7 +407,7 @@ void InitTransforms(ParticleTree pt)
     }
 ```
 
-#### AddPendingWork()
+##### AddPendingWork()
 
 ```C#
 static void AddPendingWork(DynamicBone db)
@@ -416,7 +416,7 @@ static void AddPendingWork(DynamicBone db)
     }
 ```
 
-### LateUpdate()
+#### LateUpdate()
 
 ```c#
 void LateUpdate()
@@ -454,7 +454,7 @@ void LateUpdate()
     }
 ```
 
-#### SetWeight()
+##### SetWeight()
 
 ```C#
     public void SetWeight(float w)
@@ -474,7 +474,7 @@ void LateUpdate()
     }
 ```
 
-#### ResetParticlesPosition()
+##### ResetParticlesPosition()
 
 ```c#
     void ResetParticlesPosition()
@@ -506,7 +506,7 @@ void LateUpdate()
     }
 ```
 
-#### CheckDistance()
+##### CheckDistance()
 
 ```c#
     void CheckDistance()
@@ -536,7 +536,7 @@ void LateUpdate()
     }
 ```
 
-#### IsNeedUpdate()
+##### IsNeedUpdate()
 
 ```c#
     bool IsNeedUpdate()
@@ -545,7 +545,7 @@ void LateUpdate()
     }
 ```
 
-#### Prepare()
+##### Prepare()
 
 ```c#
     void Prepare()
@@ -612,7 +612,7 @@ void LateUpdate()
     }
 ```
 
-#### UpdateParticles()
+##### UpdateParticles()
 
 ```c#
     void UpdateParticles()
@@ -666,7 +666,7 @@ void LateUpdate()
     }
 ```
 
-#### UpdateParticles1()
+##### UpdateParticles1()
 
 ```c#
     void UpdateParticles1(float timeVar, int loopIndex)
@@ -717,7 +717,7 @@ void LateUpdate()
     }
 ```
 
-#### UpdateParticles2()
+##### UpdateParticles2()
 
 ```c#
     void UpdateParticles2(float timeVar)
@@ -808,7 +808,7 @@ void LateUpdate()
     }
 ```
 
-#### ApplyParticlesToTransforms()
+##### ApplyParticlesToTransforms()
 
 ```c#
     void ApplyParticlesToTransforms()
@@ -890,7 +890,7 @@ void LateUpdate()
     }
 ```
 
-## 总结：
+### 总结：
 
 &emsp;&emsp;该插件上次更新1.3.2版本还是一年多前，现在应该是入土了吧。解析Dynamic bone的文章前面已有许多（但没有新版），所以我务于全，展现了该脚本整个基本流程函数（其他未展现的流程函数基本也都调用前文出现过的子函数），希望对读者能有些许帮助。
 
