@@ -219,6 +219,6 @@ struct SkipUpdateParticles : IJobParallelFor
 
 ### 参考
 
-[^1]: https://zhuanlan.zhihu.com/p/49188230
-[^2]: https://github.com/ldh/UnityHighPerformanceDynamicBone
+[^1]: [DynamicBone原理](https://zhuanlan.zhihu.com/p/49188230)
+[^2]: [高性能DynamicBone实现](https://github.com/ldh/UnityHighPerformanceDynamicBone)
 
