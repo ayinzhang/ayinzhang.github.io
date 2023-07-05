@@ -191,9 +191,10 @@ struct SkipUpdateParticles : IJobParallelFor
 &emsp;&emsp;实习期间断断续续写了几天，改又用了更多的天数。在各种简化压缩下终于完成了多线程版的DynamicBone。简单搭个场景甩一甩看看效果。符合预期，毕竟也是以1.3版为对照写的。
 
 <div align=center>
-<img src="https://pic2.zhimg.com/v2-cb0461fdfd7db337c8b45849c84516f1_b.jpg"/>
+<img src="https://pic2.zhimg.com/v2-cb0461fdfd7db337c8b45849c84516f1_b.webp"/>
 <center><p>左1.2版DynammicBone，中为1.3版DynamicBone，右为自己的DynamicBone</p></center>
 </div> 
+
 
 ### 性能对照
 
