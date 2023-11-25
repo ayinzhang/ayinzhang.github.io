@@ -1,0 +1,721 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>GAMES201 | Ayin</title><meta name="author" content="翼轸"><meta name="copyright" content="翼轸"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="基于物理的动画">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GAMES201">
+<meta property="og:url" content="http://example.com/2022/12/25/2022-12-25-GAMES201/index.html">
+<meta property="og:site_name" content="Ayin">
+<meta property="og:description" content="基于物理的动画">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://picx.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.avis?source=172ae18b&biz_tag=Post">
+<meta property="article:published_time" content="2022-12-24T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-03T14:14:52.409Z">
+<meta property="article:author" content="翼轸">
+<meta property="article:tag" content="动画模拟">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://picx.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.avis?source=172ae18b&biz_tag=Post"><link rel="shortcut icon" href="/img/icon.png"><link rel="canonical" href="http://example.com/2022/12/25/2022-12-25-GAMES201/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'GAMES201',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-03 22:14:52'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/me.png" onerror="onerror=null;src='img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://picx.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.avis?source=172ae18b&amp;biz_tag=Post')"><nav id="nav"><span id="blog-info"><a href="/" title="Ayin"><span class="site-name">Ayin</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">GAMES201</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-24T16:00:00.000Z" title="发表于 2022-12-25 00:00:00">2022-12-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-03T14:14:52.409Z" title="更新于 2023-11-03 22:14:52">2023-11-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/%E5%9B%BE%E5%BD%A2%E5%AD%A6%E7%9B%B8%E5%85%B3/">图形学相关</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="GAMES201"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://pic1.zhimg.com/70/v2-566a618704028e2fc5f045fbb5069f85_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec1 课程介绍"></h2><h2 id="Lec1-课程介绍"><a href="#Lec1-课程介绍" class="headerlink" title="Lec1 课程介绍"></a>Lec1 课程介绍</h2><h3 id="基于物理的动画简介"><a href="#基于物理的动画简介" class="headerlink" title="基于物理的动画简介"></a>基于物理的动画简介</h3><p><img src="https://pic2.zhimg.com/80/v2-b935052fc114f9971c54be88db2fdb5d_720w.webp" alt="img"></p>
+<h4 id="物理引擎及应用"><a href="#物理引擎及应用" class="headerlink" title="物理引擎及应用"></a>物理引擎及应用</h4><p>定义：在电脑中模拟真实世界</p>
+<p><img src="https://pic1.zhimg.com/80/v2-b0f326ae07f45a2894a39b83469b5adc_720w.webp" alt="img"></p>
+<p>应用：计算机辅助设计，电影特效，VR&#x2F;AR，训练机器人，游戏</p>
+<p><img src="https://pic4.zhimg.com/80/v2-2708f65db15a2548845120081c3ccf07_720w.webp" alt="img"></p>
+<h4 id="课程关键词"><a href="#课程关键词" class="headerlink" title="课程关键词"></a>课程关键词</h4><p>离散化、高效求解器、生产力、性能、硬件体系结构、数据结构、并行化、可微编程</p>
+<p><img src="https://pic2.zhimg.com/80/v2-eedbcc08197da27d29d307092bc678e5_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-e96e74c8d8649749b6c95f3ad4137879_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-d3bcd06c306ef31721e430dd9c499b56_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-1c412d4851cfcd6cd06d36fa7771a94a_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-8b7217ea583a43021d1fc8878691662b_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-bf769d5a6f2437436287ce178c5b84e0_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-9539c877a2eb6ff5621cc92b0830da29_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-9ada877d0fe7efb00315c2ddcd78e3c6_720w.webp" alt="img"></p>
+<h3 id="Taichi-编程语言简介"><a href="#Taichi-编程语言简介" class="headerlink" title="Taichi 编程语言简介"></a>Taichi 编程语言简介</h3><h4 id="什么是太极"><a href="#什么是太极" class="headerlink" title="什么是太极"></a>什么是太极</h4><p><img src="https://pic2.zhimg.com/80/v2-4e9176f8433a4e683810b96f6e7576c1_720w.webp" alt="img"></p>
+<h4 id="太极的安装"><a href="#太极的安装" class="headerlink" title="太极的安装"></a>太极的安装</h4><p><img src="https://pic4.zhimg.com/80/v2-7d2d1de9c8e4687a413008d5a7ae3143_720w.webp" alt="img"></p>
+<h4 id="太极的初始化"><a href="#太极的初始化" class="headerlink" title="太极的初始化"></a>太极的初始化</h4><p><img src="https://pic1.zhimg.com/80/v2-195cefdf03a291c5e0f3546ac2250174_720w.webp" alt="img"></p>
+<p>太极的数据结构</p>
+<p><img src="https://pic2.zhimg.com/80/v2-26ede83d7eaa6c6c57a73b566b2fc91d_720w.webp" alt="img"></p>
+<p>太极的张量</p>
+<p><img src="https://pic1.zhimg.com/80/v2-535fc6ac455ff5226e9ab846e5ad1888_720w.webp" alt="img"></p>
+<h4 id="kernels"><a href="#kernels" class="headerlink" title="kernels"></a>kernels</h4><p>用于计算的函数，即时编译，kernel不能调用kernel</p>
+<p><img src="https://pic1.zhimg.com/80/v2-4b96cdb2568769987a61bcfe2e223198_720w.webp" alt="img"></p>
+<h4 id="functions"><a href="#functions" class="headerlink" title="functions"></a>functions</h4><p>kernel和func均可调用func</p>
+<p><img src="https://pic4.zhimg.com/80/v2-05e6af8c7206d6b34f4e49a55c464247_720w.webp" alt="img"></p>
+<h4 id="标量"><a href="#标量" class="headerlink" title="标量"></a>标量</h4><p><img src="https://pic1.zhimg.com/80/v2-bdeead3565a4e089fa9a6b7cbacf2658_720w.webp" alt="img"></p>
+<h4 id="矩阵和线性代数"><a href="#矩阵和线性代数" class="headerlink" title="矩阵和线性代数"></a>矩阵和线性代数</h4><p><img src="https://pic4.zhimg.com/80/v2-ff0d5103af858af91bc8cc7be4f71f93_720w.webp" alt="img"></p>
+<h4 id="原子操作"><a href="#原子操作" class="headerlink" title="原子操作"></a>原子操作</h4><p><img src="https://pic1.zhimg.com/80/v2-af9b266274d6a63fd474c5570a305448_720w.webp" alt="img"></p>
+<h4 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h4><p><img src="https://pic4.zhimg.com/80/v2-4d56501c0e147d47d66f84a6ad721b37_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/70/v2-72e606c3a8bc9a8ad2188d391b49afdb_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec2 拉格朗日视角（1）"></p>
+<h2 id="Lec2-拉格朗日视角（1）"><a href="#Lec2-拉格朗日视角（1）" class="headerlink" title="Lec2 拉格朗日视角（1）"></a>Lec2 拉格朗日视角（1）</h2><h3 id="介质模拟的两种视角"><a href="#介质模拟的两种视角" class="headerlink" title="介质模拟的两种视角"></a>介质模拟的两种视角</h3><h4 id="拉格朗日视角"><a href="#拉格朗日视角" class="headerlink" title="拉格朗日视角"></a>拉格朗日视角</h4><p>用拉格朗日粒子、三角网格、方格等代表跟随材料移动的节点，不断检测自身的位置和速度</p>
+<p><img src="https://pic2.zhimg.com/80/v2-cbf52bdd715eb1056caba3eb0c0dd675_720w.webp" alt="img"></p>
+<h4 id="欧拉视角"><a href="#欧拉视角" class="headerlink" title="欧拉视角"></a>欧拉视角</h4><p>网格本身不移动，检测穿过当前节点的材料的速度</p>
+<p><img src="https://pic3.zhimg.com/80/v2-b6ea25ac4e1a07b7fd159efdaf521512_720w.webp" alt="img"></p>
+<h4 id="两种视角的对比"><a href="#两种视角的对比" class="headerlink" title="两种视角的对比"></a>两种视角的对比</h4><p>通常来说，拉格朗日视角很好地体现了“随波逐流”，而欧拉视角更倾向于“岿然不动”</p>
+<p><img src="https://pic2.zhimg.com/80/v2-c343adfd6d2c4bccb489a3000f470f7d_720w.webp" alt="img"></p>
+<p>拉格朗日视角下的粒子模拟和欧拉视角下的烟雾模拟</p>
+<p><img src="https://pic3.zhimg.com/80/v2-6ea79526237bd9a4ef1b98fce0a81c96_720w.webp" alt="img"></p>
+<h3 id="弹簧质点系统"><a href="#弹簧质点系统" class="headerlink" title="弹簧质点系统"></a>弹簧质点系统</h3><p>简单但是实用，一般用于布料系统、弹性物体等</p>
+<p><img src="https://pic2.zhimg.com/80/v2-06ae9d2072355bf3612a487efa3d9be1_720w.webp" alt="img"></p>
+<p>系统的理论依据：胡克定律和牛顿第二定律</p>
+<p><img src="https://pic3.zhimg.com/80/v2-920e51e3aab3abf8249462cf958fa69e_720w.webp" alt="img"></p>
+<h4 id="时间积分"><a href="#时间积分" class="headerlink" title="时间积分"></a>时间积分</h4><p>计算机中的时间并不连续，所以需要将时间离散化</p>
+<p>前向欧拉，半隐式欧拉，隐式欧拉（经常和牛顿法一同使用）</p>
+<p><img src="https://pic3.zhimg.com/80/v2-1823dcb2719bc691be8360ee31c8cec6_720w.webp" alt="img"></p>
+<h4 id="时间积分器"><a href="#时间积分器" class="headerlink" title="时间积分器"></a>时间积分器</h4><p>显式积分：</p>
+<ul>
+<li>未来的状态只取决于过去的状态</li>
+<li>容易实现</li>
+<li>容易爆炸（ 需保证约束Δ�≤��� ）</li>
+<li>对刚体材料模拟较差</li>
+</ul>
+<p>隐式积分</p>
+<ul>
+<li>未来的状态取决于过去和未来的状态</li>
+<li>但引入了鸡与蛋孰先孰后的问题</li>
+<li>难以实现</li>
+<li>每一步更加费但允许更长的时间间隔</li>
+<li>会产生一些振荡和死锁问题</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-8a10013eeb4dbb7529de44f8dc9719c4_720w.webp" alt="img"></p>
+<h4 id="实现流程"><a href="#实现流程" class="headerlink" title="实现流程"></a>实现流程</h4><p><img src="https://pic1.zhimg.com/80/v2-4c935bd8a5ac505374730ed0b58291dc_720w.webp" alt="img"></p>
+<h4 id="解线性系统"><a href="#解线性系统" class="headerlink" title="解线性系统"></a>解线性系统</h4><p>将上式整理得到线性方程 ��&#x3D;� 的形式，对于大规模矩阵，求解逆矩阵是一个很费的事情，可以使用各种近似方法进行求解。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-aa88752a7f51f72f7f0b174ed345e3e6_720w.webp" alt="img"></p>
+<p>雅可比迭代（Jacobi iterations）：解线性方程的较为简易的迭代法</p>
+<p><img src="https://pic1.zhimg.com/80/v2-f34413c224cdf1747c06ad781d3ef028_720w.webp" alt="img"></p>
+<h4 id="统一显式与隐式积分器"><a href="#统一显式与隐式积分器" class="headerlink" title="统一显式与隐式积分器"></a>统一显式与隐式积分器</h4><p>取不同的值即可得到不同的积分器</p>
+<p><img src="https://pic2.zhimg.com/80/v2-60767f9b389e3ef38b6c8835fa95233d_720w.webp" alt="img"></p>
+<h3 id="平滑粒子流体动力学"><a href="#平滑粒子流体动力学" class="headerlink" title="平滑粒子流体动力学"></a>平滑粒子流体动力学</h3><p>使用带有物理量的粒子和kernal函数W来近似连续场（A可以是任何随空间变化的物理量，如密度、压力等。原始的SPH主要被用于天体，也适合处理自由表面流体）</p>
+<p><img src="https://pic1.zhimg.com/80/v2-43f70f96ccae2b1691dd4a1eb5350454_720w.webp" alt="img"></p>
+<h4 id="用物态方程做SPH"><a href="#用物态方程做SPH" class="headerlink" title="用物态方程做SPH"></a>用物态方程做SPH</h4><p>关键是求解方程（D表示材料导数material derivatives）。流体的运动和流体之间的压强，所受外力有关，所以与压强 、密度以及所受外力 （主要来自重力）有关，压强又可以进一步表示，最终得到一个与密度有关的等式。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-390e84cdb5dee6755e33c79e817472dd_720w.webp" alt="img"></p>
+<p>根据上述几部分内容，这时就能求出压强的导数，虽然不大准确，但至少对称且满足动量守恒。从而可以使用欧拉法更新下一个时刻的速度与位置<strong>。</strong></p>
+<p><img src="https://pic2.zhimg.com/80/v2-e20cd61d48bb739b68ffcd6a7a122839_720w.webp" alt="img"></p>
+<p>实现流程</p>
+<p><img src="https://pic1.zhimg.com/80/v2-024c5aa396eab6897ec96319b9b5eab8_720w.webp" alt="img"></p>
+<h4 id="SPH的一些变种"><a href="#SPH的一些变种" class="headerlink" title="SPH的一些变种"></a>SPH的一些变种</h4><ul>
+<li>Predictive-Corrective Incompressible SPH (PCI-SPH)</li>
+</ul>
+<p>引入预测机制的隐式积分</p>
+<ul>
+<li>Position-based fluids (PBF)</li>
+</ul>
+<p>PBD结合SPH方法</p>
+<ul>
+<li>Divergence-free SPH（DFSPH）</li>
+</ul>
+<p>速度上无源场</p>
+<p><img src="https://pic1.zhimg.com/80/v2-c8d0aec485a30903d58de48855e4b930_720w.webp" alt="img"></p>
+<h4 id="柯朗-弗里德里希斯-列维条件"><a href="#柯朗-弗里德里希斯-列维条件" class="headerlink" title="柯朗-弗里德里希斯-列维条件"></a>柯朗-弗里德里希斯-列维条件</h4><p>该条件用于确定时间步长的上界，在实际使用通过设定值来计算得到时间步长的最大值。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-bc2c3de3bb213064affcf22bc222edce_720w.webp" alt="img"></p>
+<h4 id="加速SPH-近邻搜索"><a href="#加速SPH-近邻搜索" class="headerlink" title="加速SPH:近邻搜索"></a>加速SPH:近邻搜索</h4><p>SPH需要对每个粒子遍历周围的所有粒子，计算复杂度是 O(n^2) ，在实际中可以使用近邻方法进行加速，具体可以使用数据结构（如体素网格等），只在周围的格子里找半径小于h的粒子进行计算，将计算复杂度降至O(nlogn)</p>
+<p><img src="https://pic2.zhimg.com/80/v2-1e9bd0c8c8d45dc61f4df1f4b63dcab1_720w.webp" alt="img"></p>
+<h4 id="其他基于粒子的模拟方法"><a href="#其他基于粒子的模拟方法" class="headerlink" title="其他基于粒子的模拟方法"></a>其他基于粒子的模拟方法</h4><p>DEM（Discrete element method）：一种离散元素模拟方法，可以用来模拟沙子等</p>
+<p>MPS（Moving Particle Semi-implicit）：类似SPH，可以更好表现流体的不可压缩性</p>
+<p>Power Particles : 视觉上粒子之间的间距会非常均匀</p>
+<p><img src="https://pic4.zhimg.com/80/v2-a2b223fc28711a93206afa112b99e5c7_720w.webp" alt="img"></p>
+<p><img src="https://picx.zhimg.com/70/v2-bf8e06690e2efdc38e59b34c76df21e7_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec3 拉格朗日视角（2）"></p>
+<h2 id="Lec3-拉格朗日视角（2）"><a href="#Lec3-拉格朗日视角（2）" class="headerlink" title="Lec3 拉格朗日视角（2）"></a>Lec3 拉格朗日视角（2）</h2><h3 id="弹性与有限元"><a href="#弹性与有限元" class="headerlink" title="弹性与有限元"></a>弹性与有限元</h3><p>模拟弹性物体十分有趣</p>
+<ul>
+<li>不错的视觉表现</li>
+<li>不难的实现过程</li>
+<li>许多其他材质的基础（粘弹性, 弹性塑料, 粘塑性…）</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-d42066849e318c5f2fef8d262d89cd41_720w.webp" alt="img"></p>
+<h4 id="形变"><a href="#形变" class="headerlink" title="形变"></a>形变</h4><p>形变映射把物体由静止位置映射到形变位置 。将此函数对静止位置求导，得到形变梯度 。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-48f3fdb7f32f1b135d42a4b6ccd8d1e5_720w.webp" alt="img"></p>
+<h4 id="超弹性材料"><a href="#超弹性材料" class="headerlink" title="超弹性材料"></a>超弹性材料</h4><p>ψ：势能函数，定义了应力和应变的关系，直观理解为惩罚形变的势函数</p>
+<p>应力：材料内部的弹性力，用来恢复材料形状的内力</p>
+<p>应变：材料形变的度量，可用形变梯度替换</p>
+<p><img src="https://pic4.zhimg.com/80/v2-a55c8446e40ab50817708a112adf204f_720w.webp" alt="img"></p>
+<h4 id="应力张量"><a href="#应力张量" class="headerlink" title="应力张量"></a>应力张量</h4><p>应力代表无限小的材料组件对其周围施加的内力</p>
+<p>三种常见的应力张量：P、τ、σ</p>
+<ul>
+<li>P：对ψ求导，在原空间下计算得到应力张量，不对称（易于计算）</li>
+<li>τ：在形变后的空间计算得到，对称</li>
+<li>σ：比较常用，在形变后的空间计算，对称（因为角动量守恒）</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-4149cfd46fc6ce7ae3a598a7c73b156d_720w.webp" alt="img"></p>
+<h4 id="常用物理量"><a href="#常用物理量" class="headerlink" title="常用物理量"></a>常用物理量</h4><ul>
+<li>杨氏模量 </li>
+<li>体积模量</li>
+<li>泊松比 ∈[0,0.5) （存在负泊松比）</li>
+<li>拉梅常数 第一常数 （一般用于固体） 第二常数（一般用于液体）</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-e568a4ea92d68269bc3fe91c4354f30e_720w.webp" alt="img"></p>
+<h4 id="超弹性模型"><a href="#超弹性模型" class="headerlink" title="超弹性模型"></a>超弹性模型</h4><p>一般采用Neo-Hookean，形变非常小采用Linear elasticity(旋转后体积无条件变大)</p>
+<p><img src="https://pic1.zhimg.com/80/v2-03560a320d6709baa170b352a8cd87f0_720w.webp" alt="img"></p>
+<h4 id="有限单元法"><a href="#有限单元法" class="headerlink" title="有限单元法"></a>有限单元法</h4><p>使用连续偏微分方程将空间分为一个个的元素，建立离散</p>
+<p><img src="https://pic4.zhimg.com/80/v2-8f8e22ca79a0bd4b08a705ff9edf7a57_720w.webp" alt="img"></p>
+<h4 id="线性三角形有限元"><a href="#线性三角形有限元" class="headerlink" title="线性三角形有限元"></a>线性三角形有限元</h4><p>线性三角形有限元（弹性）假定形变映射是仿射的，因此形变梯度在单个四面体单元内是恒定的。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-e78b1c21a1ef5ce2c32835335eebcb11_720w.webp" alt="img"></p>
+<h4 id="形变梯度F的计算"><a href="#形变梯度F的计算" class="headerlink" title="形变梯度F的计算"></a>形变梯度F的计算</h4><p>1.将x拆分为三角形三个顶点a,b,c</p>
+<p><img src="https://pic1.zhimg.com/80/v2-e91aeb4b025bd54478fe58e9d83da948_720w.webp" alt="img"></p>
+<p>2.构建矩阵B和D，并由此构建出矩阵F</p>
+<p><img src="https://pic2.zhimg.com/80/v2-0ae1a2cdbbd2c5a1830cac5379aae279_720w.webp" alt="img"></p>
+<h4 id="显式线性三角形有限元"><a href="#显式线性三角形有限元" class="headerlink" title="显式线性三角形有限元"></a>显式线性三角形有限元</h4><p>对每个元素的势能先求导再求和，拆出每个元素的势能，并使用链式求导法则化简替换</p>
+<p><img src="https://pic3.zhimg.com/80/v2-ee93eabc730910d9d1365f82a289a7f2_720w.webp" alt="img"></p>
+<h4 id="隐式线性三角形有限元"><a href="#隐式线性三角形有限元" class="headerlink" title="隐式线性三角形有限元"></a>隐式线性三角形有限元</h4><p>式中需要求二阶导数（图与视频有出入）</p>
+<p><img src="https://pic2.zhimg.com/80/v2-5cf37a6065dacd50fafe96ba49cc7b1d_720w.webp" alt="img"></p>
+<h3 id="太极的高级应用"><a href="#太极的高级应用" class="headerlink" title="太极的高级应用"></a>太极的高级应用</h3><h4 id="面向对象数据编程"><a href="#面向对象数据编程" class="headerlink" title="面向对象数据编程"></a>面向对象数据编程</h4><p><img src="https://pic1.zhimg.com/80/v2-e5ade8cf1de5918072e636b7deb0d060_720w.webp" alt="img"></p>
+<h4 id="元编程"><a href="#元编程" class="headerlink" title="元编程"></a>元编程</h4><p><img src="https://pic4.zhimg.com/80/v2-48678fe369ca8e5e9784721af954dcb7_720w.webp" alt="img"></p>
+<h4 id="可微编程"><a href="#可微编程" class="headerlink" title="可微编程"></a>可微编程</h4><p><img src="https://pic1.zhimg.com/80/v2-3027cfb0e9dabef63ad62364b8524200_720w.webp" alt="img"></p>
+<h4 id="可视化"><a href="#可视化" class="headerlink" title="可视化"></a>可视化</h4><p><img src="https://pic4.zhimg.com/80/v2-72f980c70ff7e246154056fda88d600b_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/70/v2-8d22e197dc24a6c9ece7e47c6109584a_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec4 欧拉视角"></p>
+<h2 id="Lec4-欧拉视角"><a href="#Lec4-欧拉视角" class="headerlink" title="Lec4 欧拉视角"></a>Lec4 欧拉视角</h2><h3 id="材料导数"><a href="#材料导数" class="headerlink" title="材料导数"></a>材料导数</h3><p>一块材料上物理量的变化取决于时间和空间上的变化</p>
+<p><img src="https://pic4.zhimg.com/80/v2-e3da0bb398092f1570ef6f444583281f_720w.webp" alt="img"></p>
+<h3 id="不可压缩的NS方程"><a href="#不可压缩的NS方程" class="headerlink" title="不可压缩的NS方程"></a>不可压缩的NS方程</h3><p>速度变化由压强，粘性（一般忽略）和重力加速度三者决定</p>
+<p>因为不可压缩，故速度场没有散度</p>
+<p><img src="https://pic2.zhimg.com/80/v2-ca6e1cb6d6b90fa7be9031ff262fcab5_720w.webp" alt="img"></p>
+<h4 id="算子分解"><a href="#算子分解" class="headerlink" title="算子分解"></a>算子分解</h4><p>先计算平流（速度场的变化），再加上外力，最后由压强进行投影操作，使速度场散度为零</p>
+<p><img src="https://pic4.zhimg.com/80/v2-5ddb0dcef6a0af78c7e354b16998cf57_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-5c0bff877563a5bcf56dc143cd2e9dc9_720w.webp" alt="img"></p>
+<h3 id="网格结构"><a href="#网格结构" class="headerlink" title="网格结构"></a>网格结构</h3><h4 id="均匀网格"><a href="#均匀网格" class="headerlink" title="均匀网格"></a>均匀网格</h4><p>将所有信息都存在网格中心</p>
+<p><img src="https://pic4.zhimg.com/80/v2-5c25b806d039c3331f4232000420bdbb_720w.webp" alt="img"></p>
+<h4 id="交错网格"><a href="#交错网格" class="headerlink" title="交错网格"></a>交错网格</h4><p>相较于均匀网格，交错网格用中心差分离散了压力梯度带来的问题</p>
+<p><img src="https://pic2.zhimg.com/80/v2-7a4d080918b1f8ea8e8be821ba189ff1_720w.webp" alt="img"></p>
+<h4 id="双线性插值"><a href="#双线性插值" class="headerlink" title="双线性插值"></a>双线性插值</h4><p>以面积为权值做双线性插值</p>
+<p><img src="https://pic4.zhimg.com/80/v2-71eb395eb0cf813459b1fdadb5fe914f_720w.webp" alt="img"></p>
+<h3 id="平流方案"><a href="#平流方案" class="headerlink" title="平流方案"></a>平流方案</h3><h4 id="半拉格朗日平流"><a href="#半拉格朗日平流" class="headerlink" title="半拉格朗日平流"></a>半拉格朗日平流</h4><p>基于上一时间步的信息得到这一时间步的物理信息</p>
+<p><img src="https://pic1.zhimg.com/80/v2-f43565e2ad21d4bb9919b7317087fabc_720w.webp" alt="img"></p>
+<p>由于速度场并不恒定，物体的移动路径可能非常复杂，用简单的回溯可能会使得到的路径偏离正确路径许多，表现在实际模拟中就是缩小和模糊的问题</p>
+<p><img src="https://pic1.zhimg.com/80/v2-ff6a9e86a1c5258e106681879d8d4ecc_720w.webp" alt="img"></p>
+<h4 id="缩小问题：显式中点法"><a href="#缩小问题：显式中点法" class="headerlink" title="缩小问题：显式中点法"></a>缩小问题：显式中点法</h4><p>回溯一半，再以此时的速度进行回溯</p>
+<p><img src="https://pic2.zhimg.com/80/v2-384c429d81219b0d7edd66c3bafa4ad1_720w.webp" alt="img"></p>
+<h4 id="模糊问题：前后误差补偿和校正"><a href="#模糊问题：前后误差补偿和校正" class="headerlink" title="模糊问题：前后误差补偿和校正"></a>模糊问题：前后误差补偿和校正</h4><p>将速度场分别往前和往后推 Δt ，作差后取均得到误差值，将结果加上误差值即可</p>
+<p><img src="https://pic4.zhimg.com/80/v2-d9925f256bcbbb5440bc46bd97a995b7_720w.webp" alt="img"></p>
+<h3 id="投影方案"><a href="#投影方案" class="headerlink" title="投影方案"></a>投影方案</h3><p>求解标量场使其速度场叠加上其梯度后无散度</p>
+<h4 id="克林投影"><a href="#克林投影" class="headerlink" title="克林投影"></a>克林投影</h4><p>拉普拉斯算子</p>
+<p><img src="https://pic4.zhimg.com/80/v2-d510285a4cf65285426d6d868ca88857_720w.webp" alt="img"></p>
+<h4 id="泊松方程"><a href="#泊松方程" class="headerlink" title="泊松方程"></a>泊松方程</h4><p>中心差分法近似拉普拉斯，先求梯度再求散度</p>
+<p><img src="https://pic3.zhimg.com/80/v2-3a78451b86dd62ae625729ff52cc8a1e_720w.webp" alt="img"></p>
+<h4 id="空间离散化"><a href="#空间离散化" class="headerlink" title="空间离散化"></a>空间离散化</h4><p><img src="https://pic1.zhimg.com/80/v2-9c2a6038e7e7c6ffb84f60794158a6e8_720w.webp" alt="img"></p>
+<p>速度场的散度</p>
+<p><img src="https://pic4.zhimg.com/80/v2-033d02d9940750485a8538b1e2ead5f7_720w.webp" alt="img"></p>
+<p>压强的散度</p>
+<p><img src="https://pic3.zhimg.com/80/v2-eba5aeb4ec8804cf6a8e68246e9be46e_720w.webp" alt="img"></p>
+<h3 id="解线性系统-1"><a href="#解线性系统-1" class="headerlink" title="解线性系统"></a>解线性系统</h3><ul>
+<li>直接求解：<em>PARDISO</em></li>
+<li>迭代求解：高斯-赛德尔 雅可比 krylov子空间求解</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-64161a26435bd7489ea124645f0a4642_720w.webp" alt="img"></p>
+<h4 id="矩阵存储"><a href="#矩阵存储" class="headerlink" title="矩阵存储"></a>矩阵存储</h4><ul>
+<li>密集矩阵：规模不大时直接存</li>
+<li>稀疏矩阵：CSR、COO等</li>
+<li>无矩阵：不存</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-034fcb73d6e7d05637cb9a76d490f550_720w.webp" alt="img"></p>
+<h4 id="krylov子空间求解"><a href="#krylov子空间求解" class="headerlink" title="krylov子空间求解"></a>krylov子空间求解</h4><p>其中一个最著名的变形为共轭梯度法 conjugate gradients (CG)</p>
+<p>其他一些其他在图形学中不常用的方法有CR、GMRES、BiCGStab等</p>
+<p><img src="https://pic1.zhimg.com/80/v2-abe62db4956e45081eee87e0d4a704c0_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-972d427a4485c67d455648e2334446c3_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-c871d4311285fcbc952d34de011e9609_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-61d432fd51b65d25dc7db8f7e2f3fa21_720w.webp" alt="img"></p>
+<h4 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h4><p>条件数：一个评价收敛速度的值，越小则收敛越快，等于SPD的最大特征值&#x2F;最小特征值</p>
+<p>减小条件数：找到一个近似的矩阵，且容易求逆。左右同乘逆，此时条件数可能会变小</p>
+<p><img src="https://pic1.zhimg.com/80/v2-bd017ce14e45b01368ab5c252164d6f4_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-d1eaac1981f423f9bfb3d0d9cb1ba3fe_720w.webp" alt="img"></p>
+<h4 id="多重网格方法"><a href="#多重网格方法" class="headerlink" title="多重网格方法"></a>多重网格方法</h4><p><img src="https://pic1.zhimg.com/80/v2-6ab141e6252ca6b4af9ad83fb6bc7ca4_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-e02c41808f45a7732621dddf2dbbc15d_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-c59c4399f836f2f43f56caa17b893488_720w.webp" alt="img"></p>
+<h4 id="总结摘要"><a href="#总结摘要" class="headerlink" title="总结摘要"></a>总结摘要</h4><p><img src="https://pic3.zhimg.com/80/v2-5d251131a551a3aa5f6a1ec421fcde7e_720w.webp" alt="img"></p>
+<h4 id="改进方案"><a href="#改进方案" class="headerlink" title="改进方案"></a>改进方案</h4><p>修正速度场在经过平流和投影后能量的损失，降低了流体的粘性</p>
+<p><img src="https://pic3.zhimg.com/80/v2-97a568054233ee6b9a93d0c348444da6_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-fcd6a73ae55c703db0c91f338ff9cc6f_720w.webp" alt="img"></p>
+<h4 id="扩展方向"><a href="#扩展方向" class="headerlink" title="扩展方向"></a>扩展方向</h4><ul>
+<li>从2D到3D模拟</li>
+<li>精确的边界以及流体固体的耦合</li>
+<li>两相流体模拟</li>
+<li>处理自由表面，水平集方法</li>
+<li>处理涡量守恒</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-d6ec75f2ac2f80258f7ba9780709b7ea_720w.webp" alt="img"></p>
+<p><img src="https://picx.zhimg.com/70/v2-00a542bac8265425e4a41b08a7c92530_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec5 线性弹性有限元与拓扑优化"></p>
+<h2 id="Lec5-线性弹性有限元与拓扑优化"><a href="#Lec5-线性弹性有限元与拓扑优化" class="headerlink" title="Lec5 线性弹性有限元与拓扑优化"></a>Lec5 线性弹性有限元与拓扑优化</h2><h3 id="有限元概述"><a href="#有限元概述" class="headerlink" title="有限元概述"></a>有限元概述</h3><h4 id="有限元法"><a href="#有限元法" class="headerlink" title="有限元法"></a>有限元法</h4><p>有限元法是伽辽金法的一种，将连续型偏微分方程转化为线性系统，用于后续求解<br>经典步骤：</p>
+<ul>
+<li>将强型偏微分方程转化为弱型偏微分方程</li>
+<li>分步积分</li>
+<li>散度定理进一步简化偏微分方程并得到诺依曼边界条件的显式形式</li>
+<li>离散化</li>
+<li>求解线性系统</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-91e2f51379dda1da9940c630bdfea93e_720w.webp" alt="img"></p>
+<h4 id="二维泊松方程"><a href="#二维泊松方程" class="headerlink" title="二维泊松方程"></a>二维泊松方程</h4><p>即拉普拉斯方程（泊松方程的简化形式）</p>
+<ul>
+<li>狄利克雷边界&#x2F;第一类边界：直接给定边界上的值</li>
+<li>诺依曼边界&#x2F;第二类边界： 边界上的值为导数&#x2F;梯度的值乘以法线方向</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-ea9250bfbfdd725ed60d9afdafe93ba8_720w.webp" alt="img"></p>
+<h3 id="离散化泊松方程"><a href="#离散化泊松方程" class="headerlink" title="离散化泊松方程"></a>离散化泊松方程</h3><h4 id="化简"><a href="#化简" class="headerlink" title="化简"></a>化简</h4><p>用一个任意的二维标量函数w(x)，与强型式∇·∇u相乘，再用w直接与∇u相乘再求导，并展开化简，对两边同时积分化简可得到散度定理：在一个体内对散度的面积分 &#x3D; 边界上的向量函数和法向量点乘绕边界的线积分</p>
+<p><img src="https://pic1.zhimg.com/80/v2-25c49d8671082c2f150b1f5be538e67c_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-9ac474cb3fe8fe9f0dd8699ec4a26017_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-d1b555e42b0ecb57774f8b7330d444e1_720w.webp" alt="img"></p>
+<h4 id="离散"><a href="#离散" class="headerlink" title="离散"></a>离散</h4><p>用线性的基函数模拟连续函数，再离散化函数，最后引入矩阵形式</p>
+<p><img src="https://pic4.zhimg.com/80/v2-1ff5a40df60665bede5a87f702b13b97_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-5accdb54c3a8ab0e82a75dc9e45323d2_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-ec0884bbc1d32a33a572a6cd115ab80d_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-07a8eed1839a67c2724aefb27d0ef582_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-b347142dcea6c72bf537d2fc12252f28_720w.webp" alt="img"></p>
+<h4 id="边界条件"><a href="#边界条件" class="headerlink" title="边界条件"></a>边界条件</h4><p>用对应的边界条件加以限制</p>
+<p><img src="https://pic4.zhimg.com/80/v2-67c952a06cfcd8c97ea4989d310fa97b_720w.webp" alt="img"></p>
+<h3 id="线性弹性有限元"><a href="#线性弹性有限元" class="headerlink" title="线性弹性有限元"></a>线性弹性有限元</h3><p>准静态过程下速度很小约为0，重力为0。</p>
+<p>自由度： 位移</p>
+<p><img src="https://pic2.zhimg.com/80/v2-d03c1222ee9d2f1abfd1fdd73ab8835d_720w.webp" alt="img"></p>
+<h4 id="有限元法求解"><a href="#有限元法求解" class="headerlink" title="有限元法求解"></a>有限元法求解</h4><p>用“，”表示求导，αβγ对应xyz轴</p>
+<p><img src="https://pic3.zhimg.com/80/v2-7358d8dae5a26a479106f7b752031656_720w.webp" alt="img"></p>
+<p>将求散度的部分乘以w，再分步积分</p>
+<p><img src="https://pic1.zhimg.com/80/v2-a2846c5cd09779c7d35743dfcba7deb8_720w.webp" alt="img"></p>
+<p>离散化w和u</p>
+<p><img src="https://pic2.zhimg.com/80/v2-0fe1eaca0c6b007d8f2558fbfa74ac4d_720w.webp" alt="img"></p>
+<p>求其中σ和u的线性关系</p>
+<p><img src="https://pic1.zhimg.com/80/v2-ea1f1b7d2287d83ab0a25a7482b85e30_720w.webp" alt="img"></p>
+<p>带入得到线性系统Ku &#x3D; f</p>
+<p><img src="https://pic2.zhimg.com/80/v2-4a4fb08ea72b04b82a80ef108f535599_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-4a311f40e68f39b3c4ea918cc2f35158_720w.webp" alt="img"></p>
+<h3 id="拓扑优化"><a href="#拓扑优化" class="headerlink" title="拓扑优化"></a>拓扑优化</h3><p>根据给定的负载情况、约束条件和性能指标在给定的设计区域内对材料分布进行优化，是结构优化的一种。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-59a49b326800c0ed7ffd309c74300aca_720w.webp" alt="img"></p>
+<p><img src="https://picx.zhimg.com/70/v2-c6a4aef7eac78ca232eb43c3fcce691f_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec6 混合欧拉-拉格朗日视角(1)"></p>
+<h2 id="Lec6-混合欧拉-拉格朗日视角-1"><a href="#Lec6-混合欧拉-拉格朗日视角-1" class="headerlink" title="Lec6 混合欧拉-拉格朗日视角(1)"></a>Lec6 混合欧拉-拉格朗日视角(1)</h2><h3 id="欧拉法和拉格朗日法对比"><a href="#欧拉法和拉格朗日法对比" class="headerlink" title="欧拉法和拉格朗日法对比"></a>欧拉法和拉格朗日法对比</h3><h4 id="衡量模拟质量的因素"><a href="#衡量模拟质量的因素" class="headerlink" title="衡量模拟质量的因素"></a>衡量模拟质量的因素</h4><ul>
+<li>物理属性：动量&#x2F;角动量&#x2F;体积&#x2F;能量</li>
+<li>性能：并行性&#x2F;访存</li>
+<li>复杂度</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-10c76d7a57bf591c3a9574be646d630e_720w.webp" alt="img"></p>
+<h4 id="欧拉法和拉格朗日法对比-1"><a href="#欧拉法和拉格朗日法对比-1" class="headerlink" title="欧拉法和拉格朗日法对比"></a>欧拉法和拉格朗日法对比</h4><p>欧拉法在投影阶段优势：</p>
+<ul>
+<li>易于离散化拉普拉斯算子</li>
+<li>查找邻居信息效率高</li>
+<li>易于预处理，使收敛速度变快</li>
+</ul>
+<p>欧拉法在平流阶段缺点：</p>
+<p>容易损失能量以及丢失几何细节</p>
+<p><img src="https://pic3.zhimg.com/80/v2-92e83693ea90c9a7e25d6cec20026036_720w.webp" alt="img"></p>
+<p>拉格朗日法在平流阶段优势：</p>
+<ul>
+<li>易于移动位置</li>
+<li>易于满足守恒（低耗散）</li>
+</ul>
+<p>拉格朗日法在投影阶段缺点：</p>
+<ul>
+<li>不容易离散化</li>
+<li>需要复杂的数据结构查询邻居信息</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-d8ac6a2f7046e76dd505122a337d4b74_720w.webp" alt="img"></p>
+<h3 id="混合欧拉-拉格朗日法"><a href="#混合欧拉-拉格朗日法" class="headerlink" title="混合欧拉-拉格朗日法"></a>混合欧拉-拉格朗日法</h3><h4 id="混合欧拉-拉格朗日法步骤"><a href="#混合欧拉-拉格朗日法步骤" class="headerlink" title="混合欧拉-拉格朗日法步骤"></a>混合欧拉-拉格朗日法步骤</h4><ul>
+<li>粒子转网格：把粒子上的信息存储到欧拉网格上</li>
+<li>网格操作：把速度的散度分量利用投影消除（不可压缩），应用边界条件</li>
+<li>网格转粒子：信息从欧拉网格到粒子</li>
+<li>粒子操作：移动粒子，更新材料的形变、梯度、体积等其它属性</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-110efac3d6ac903e3d72060655e81bf4_720w.webp" alt="img"></p>
+<h4 id="质点网格法（PIC）"><a href="#质点网格法（PIC）" class="headerlink" title="质点网格法（PIC）"></a>质点网格法（PIC）</h4><p>质点网格法中的粒子网格互转：二维范围内，属性给到周围3x3的网格，按照距离远近使用核函数计算权值</p>
+<p><img src="https://pic3.zhimg.com/80/v2-cbd22ad31c90aff5f4a97b785fce4512_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-61a1d8eb6c56f4909f8df785ec5287ec_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-5034ee52d898894d207b24f17a7dc619_720w.webp" alt="img"></p>
+<p>质点网格法和泊松求解器结合</p>
+<p>模拟步骤：</p>
+<ul>
+<li>粒子转网格：将速度从粒子散入网格</li>
+<li>在网格上求解压力，并经过投影阶段更新速度场</li>
+<li>网格转粒子：从速度场网格得到粒子速度，更新粒子的位置</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-63757110bdab6eff20a6c9eef2c11d42_720w.webp" alt="img"></p>
+<p>问题：能量耗散，流体过粘</p>
+<p>原因：网格转粒子阶段信息丢失，18自由度变成2自由度</p>
+<p><img src="https://pic2.zhimg.com/80/v2-f4fff8ef1959c211562b6fdc98e3dea5_720w.webp" alt="img"></p>
+<p>改进：</p>
+<ul>
+<li>传输更多的信息：APIC，PolyPIC</li>
+<li>只传输增量：FLIP</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-042795b2c47139a9b33efd2056abf5bc_720w.webp" alt="img"></p>
+<h4 id="仿射粒子元胞法（APIC）"><a href="#仿射粒子元胞法（APIC）" class="headerlink" title="仿射粒子元胞法（APIC）"></a>仿射粒子元胞法（APIC）</h4><p>在速度场的基础上增加了一个仿射场，使粒子的自由度由2个增加到了6个，保证了角动量守恒</p>
+<p><img src="https://pic1.zhimg.com/80/v2-932a4c0b096c46ec1bdc8652a6cb127c_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-02a116739fe663d8e0392eb0eb35fa25_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-fb14247302d56986af99fbeb11fb17aa_720w.webp" alt="img"></p>
+<h4 id="多项式质点网格法（PolyPIC）"><a href="#多项式质点网格法（PolyPIC）" class="headerlink" title="多项式质点网格法（PolyPIC）"></a>多项式质点网格法（PolyPIC）</h4><p>在APIC的基础上，粒子的自由度从6个增加到18个（理论上能在网格和粒子的转化中不丢失任何信息）</p>
+<p><img src="https://pic4.zhimg.com/80/v2-311e2bd0105f90e80f22bd1a67c7370b_720w.webp" alt="img"></p>
+<h4 id="隐式流体粒子（FLIP）"><a href="#隐式流体粒子（FLIP）" class="headerlink" title="隐式流体粒子（FLIP）"></a>隐式流体粒子（FLIP）</h4><p>在网格和粒子相互转化的过程中，只传递物理量的增量而非物理量本身</p>
+<p>缺点：噪声大，且需要额外的空间存储网格再计算差值</p>
+<p><img src="https://pic2.zhimg.com/80/v2-8bc07c3a539f671649f299b946c13901_720w.webp" alt="img"></p>
+<p>PIC能量耗散大，FLIP噪声大，将两者结合起来，可以达到能量耗散不大且噪声变小的效果</p>
+<p>FLIP0.99 &#x3D; 0.99 * FLIP + 0.01 * PIC</p>
+<p><img src="https://pic3.zhimg.com/80/v2-69bee610685bbd3f964ae67e1cefafb2_720w.webp" alt="img"></p>
+<h3 id="物质点法（MPM）"><a href="#物质点法（MPM）" class="headerlink" title="物质点法（MPM）"></a>物质点法（MPM）</h3><p>较好的混合欧拉-拉格朗日法的模拟方案，粒子存储了速度、形变梯度、体积等物理量</p>
+<p><img src="https://pic4.zhimg.com/80/v2-aa2ee5821fe91630c9790195992fe6db_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-7f992cb80651479534e5c1125c9e4aff_720w.webp" alt="img"></p>
+<p>MPM法流行的原因：</p>
+<ul>
+<li>耦合了不同的物理材料</li>
+<li>处理碰撞和自碰撞</li>
+<li>材料断裂的处理</li>
+<li>模拟大形变</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-5e57dcba6015af31d13ae9edcb458c37_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-36a9ed565dad1f80553f100c1bfc97c7_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-2e2ce7d214e191a23209df8591d3ab14_720w.webp" alt="img"></p>
+<p><img src="https://pica.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.image?source=172ae18b&biz_tag=Post" alt="GAMES201 Lec7 混合欧拉-拉格朗日视角(2)"></p>
+<h2 id="Lec7-混合欧拉-拉格朗日视角-2"><a href="#Lec7-混合欧拉-拉格朗日视角-2" class="headerlink" title="Lec7 混合欧拉-拉格朗日视角(2)"></a>Lec7 混合欧拉-拉格朗日视角(2)</h2><h3 id="移动最小二乘物质点法-MLS-MPM"><a href="#移动最小二乘物质点法-MLS-MPM" class="headerlink" title="移动最小二乘物质点法(MLS-MPM)"></a>移动最小二乘物质点法(MLS-MPM)</h3><h4 id="仿射粒子元胞法（APIC）-1"><a href="#仿射粒子元胞法（APIC）-1" class="headerlink" title="仿射粒子元胞法（APIC）"></a>仿射粒子元胞法（APIC）</h4><p>对比PIC额外维护了变量C（2x2或3x3的矩阵），记录了粒子周围的仿射速度场（ax+b中的a项）</p>
+<ul>
+<li>粒子转网格：求网格上的动量和质量，其中增加仿射的部分</li>
+<li>网格操作：从动量求出速度，求解泊松方程得到无散的速度场</li>
+<li>网格转粒子：将速度转到粒子上，更新粒子位置，求新的矩阵C</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-c9597807f4d0d5c30f9565011e4efc06_720w.webp" alt="img"></p>
+<h4 id="移动最小二乘物质点法（MLS-MPM）"><a href="#移动最小二乘物质点法（MLS-MPM）" class="headerlink" title="移动最小二乘物质点法（MLS-MPM）"></a>移动最小二乘物质点法（MLS-MPM）</h4><p>对比APIC改进的地方：</p>
+<ul>
+<li>粒子转网格：将形变梯度引入动量的计算，增加了一个弹力项</li>
+<li>网格操作：计算弹性物体时，压力投影替换为边界条件的约束计算得到速度</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-9d2b4bc6fd08ef7b74b9ec0abe4f1986_720w.webp" alt="img"></p>
+<p><strong>计算形变梯度</strong></p>
+<p>使用矩阵C近似了速度的梯度</p>
+<p><img src="https://pic1.zhimg.com/80/v2-363084c6255efb11ec82666f50273fb0_720w.webp" alt="img"></p>
+<p><strong>计算内力</strong></p>
+<p>其中f为对弹性势能求导</p>
+<ul>
+<li>代入势能公式</li>
+<li>对x估值的求导等于对速度的求导乘以τ</li>
+<li>链式求导法则带入对F和C的求导</li>
+<li>求导</li>
+<li>化简</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-d8f36d45158e14ff734d21f14be9803e_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-4c87048fae72ae67f9bb456c994702b2_720w.webp" alt="img"></p>
+<p><strong>网格操作</strong></p>
+<p>在网格上边做分步积分和应用散度定理<br>边界类型：</p>
+<ul>
+<li>粘性边界，速度归零</li>
+<li>滑移边界，靠近和离开边界时均有阻力</li>
+<li>分离边界，只在靠近边界时存在阻力</li>
+</ul>
+<p>其他情况：</p>
+<ul>
+<li>重力对速度的作用，施加在边界计算之前</li>
+<li>包含其他碰撞的物体时，取相对速度</li>
+<li>边界的摩擦</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-ba3a1288107e23e4ab0ac61f23a76c61_720w.webp" alt="img"></p>
+<p><strong>MLS-MPM对比MPM的优点</strong></p>
+<ul>
+<li>重用APIC的C矩阵作为形变梯度中∇v的近似，减少了浮点运算</li>
+<li>将形变的更新从网格转粒子阶段提前到粒子转网格阶段，减少了带宽消耗</li>
+<li>在粒子转网格计算动量时，其中APIC和MLS-MPM的动量项可以合并，节省了浮点运算</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-f6c7551cc11e422aa507d7d1617ae62c_720w.webp" alt="img"></p>
+<h3 id="本构模型"><a href="#本构模型" class="headerlink" title="本构模型"></a>本构模型</h3><p>一些在框架下实现的材料模型：弹性物体，流体，弹塑性物体（雪、沙等）</p>
+<p>本构模型实现时需要注意的点：形变更新、压强计算</p>
+<p><img src="https://pic4.zhimg.com/80/v2-827a9047350c065e8bbec0612ce1a8eb_720w.webp" alt="img"></p>
+<h4 id="弹性体"><a href="#弹性体" class="headerlink" title="弹性体"></a>弹性体</h4><p><img src="https://pic1.zhimg.com/80/v2-a0a58d384b51c1a56ac2030adbeb33ac_720w.webp" alt="img"></p>
+<h4 id="流体"><a href="#流体" class="headerlink" title="流体"></a>流体</h4><p>用体积变化比求压强P，得到柯西应力</p>
+<p>数值不稳定性：在求行列式时，可能出现精度问题（常见于流体模型）</p>
+<p>避免方案：在粒子中增加对J的存储，而非使用形变梯度F求出新的J</p>
+<p><img src="https://pic3.zhimg.com/80/v2-465ed0a2ffa48ee57fa147faa9ce38e6_720w.webp" alt="img"></p>
+<p>使用弹性模型，把参数µ设置为零</p>
+<p><img src="https://pic3.zhimg.com/80/v2-6b605ab2051400ad7fc79f17519561a2_720w.webp" alt="img"></p>
+<h4 id="弹塑性体"><a href="#弹塑性体" class="headerlink" title="弹塑性体"></a>弹塑性体</h4><ul>
+<li>更新弹性形变梯度</li>
+<li>求奇异值分解矩阵</li>
+<li>裁剪掉Σ中拉伸和压缩超出范围的值</li>
+<li>用裁剪后的Σ作为弹性形变梯度，裁剪掉的值作为塑性形变梯度</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-9cbf2d65ea39403b8569503047fe8c0a_720w.webp" alt="img"></p>
+<h3 id="物质点法中的拉格朗日力"><a href="#物质点法中的拉格朗日力" class="headerlink" title="物质点法中的拉格朗日力"></a>物质点法中的拉格朗日力</h3><p>将物质点法中的粒子作为有限元法的顶点，计算采用有限元法的势能模型，不再需要计算形变梯度</p>
+<ul>
+<li>对比有限元法：能处理自碰撞</li>
+<li>对比物质点法：由于使用了纹理而不是网格，避免物质点法中由于采样密度不够高导致的数值断裂</li>
+<li>更容易耦合物质点法和有限元法</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-a54ea92132dc6389ea3ecaeed58fb14a_720w.webp" alt="img"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">翼轸</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/25/2022-12-25-GAMES201/">http://example.com/2022/12/25/2022-12-25-GAMES201/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Ayin</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8A%A8%E7%94%BB%E6%A8%A1%E6%8B%9F/">动画模拟</a></div><div class="post_share"><div class="social-share" data-image="https://picx.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.avis?source=172ae18b&amp;biz_tag=Post" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/03/09/2023-3-9-Dynamic%20Bone%20%E7%AE%80%E6%9E%90/" title="Dynamic Bone 简析"><img class="cover" src="https://picx.zhimg.com/70/v2-4abfce4c3122d36ef9506fb9608c7077_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Dynamic Bone 简析</div></div></a></div><div class="next-post pull-right"><a href="/2022/12/22/2022-12-22-%E9%9B%A8%E7%BA%AA/" title="雨纪"><img class="cover" src="https://pic1.zhimg.com/80/v2-6aee563ada1d57d8422fdfd67ca5f48c_720w.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">雨纪</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/03/09/2023-3-9-Dynamic%20Bone%20%E7%AE%80%E6%9E%90/" title="Dynamic Bone 简析"><img class="cover" src="https://picx.zhimg.com/70/v2-4abfce4c3122d36ef9506fb9608c7077_1440w.avis?source=172ae18b&biz_tag=Post" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-09</div><div class="title">Dynamic Bone 简析</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/me.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">翼轸</div><div class="author-info__description">終末一般論</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ayinzhang"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ayinzhang" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:1242857339@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec1-%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">Lec1 课程介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E%E7%89%A9%E7%90%86%E7%9A%84%E5%8A%A8%E7%94%BB%E7%AE%80%E4%BB%8B"><span class="toc-number">2.1.</span> <span class="toc-text">基于物理的动画简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%A9%E7%90%86%E5%BC%95%E6%93%8E%E5%8F%8A%E5%BA%94%E7%94%A8"><span class="toc-number">2.1.1.</span> <span class="toc-text">物理引擎及应用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%BE%E7%A8%8B%E5%85%B3%E9%94%AE%E8%AF%8D"><span class="toc-number">2.1.2.</span> <span class="toc-text">课程关键词</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Taichi-%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B"><span class="toc-number">2.2.</span> <span class="toc-text">Taichi 编程语言简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%A4%AA%E6%9E%81"><span class="toc-number">2.2.1.</span> <span class="toc-text">什么是太极</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%AA%E6%9E%81%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">2.2.2.</span> <span class="toc-text">太极的安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%AA%E6%9E%81%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">2.2.3.</span> <span class="toc-text">太极的初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#kernels"><span class="toc-number">2.2.4.</span> <span class="toc-text">kernels</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#functions"><span class="toc-number">2.2.5.</span> <span class="toc-text">functions</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E9%87%8F"><span class="toc-number">2.2.6.</span> <span class="toc-text">标量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%92%8C%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.2.7.</span> <span class="toc-text">矩阵和线性代数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8E%9F%E5%AD%90%E6%93%8D%E4%BD%9C"><span class="toc-number">2.2.8.</span> <span class="toc-text">原子操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B0%83%E8%AF%95"><span class="toc-number">2.2.9.</span> <span class="toc-text">调试</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec2-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E8%A7%86%E8%A7%92%EF%BC%881%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">Lec2 拉格朗日视角（1）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E8%B4%A8%E6%A8%A1%E6%8B%9F%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%86%E8%A7%92"><span class="toc-number">3.1.</span> <span class="toc-text">介质模拟的两种视角</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E8%A7%86%E8%A7%92"><span class="toc-number">3.1.1.</span> <span class="toc-text">拉格朗日视角</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E8%A7%86%E8%A7%92"><span class="toc-number">3.1.2.</span> <span class="toc-text">欧拉视角</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%A4%E7%A7%8D%E8%A7%86%E8%A7%92%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="toc-number">3.1.3.</span> <span class="toc-text">两种视角的对比</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%B9%E7%B0%A7%E8%B4%A8%E7%82%B9%E7%B3%BB%E7%BB%9F"><span class="toc-number">3.2.</span> <span class="toc-text">弹簧质点系统</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%A7%AF%E5%88%86"><span class="toc-number">3.2.1.</span> <span class="toc-text">时间积分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%A7%AF%E5%88%86%E5%99%A8"><span class="toc-number">3.2.2.</span> <span class="toc-text">时间积分器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B"><span class="toc-number">3.2.3.</span> <span class="toc-text">实现流程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A3%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F"><span class="toc-number">3.2.4.</span> <span class="toc-text">解线性系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%9F%E4%B8%80%E6%98%BE%E5%BC%8F%E4%B8%8E%E9%9A%90%E5%BC%8F%E7%A7%AF%E5%88%86%E5%99%A8"><span class="toc-number">3.2.5.</span> <span class="toc-text">统一显式与隐式积分器</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E6%BB%91%E7%B2%92%E5%AD%90%E6%B5%81%E4%BD%93%E5%8A%A8%E5%8A%9B%E5%AD%A6"><span class="toc-number">3.3.</span> <span class="toc-text">平滑粒子流体动力学</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8%E7%89%A9%E6%80%81%E6%96%B9%E7%A8%8B%E5%81%9ASPH"><span class="toc-number">3.3.1.</span> <span class="toc-text">用物态方程做SPH</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SPH%E7%9A%84%E4%B8%80%E4%BA%9B%E5%8F%98%E7%A7%8D"><span class="toc-number">3.3.2.</span> <span class="toc-text">SPH的一些变种</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9F%AF%E6%9C%97-%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%E6%96%AF-%E5%88%97%E7%BB%B4%E6%9D%A1%E4%BB%B6"><span class="toc-number">3.3.3.</span> <span class="toc-text">柯朗-弗里德里希斯-列维条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8A%A0%E9%80%9FSPH-%E8%BF%91%E9%82%BB%E6%90%9C%E7%B4%A2"><span class="toc-number">3.3.4.</span> <span class="toc-text">加速SPH:近邻搜索</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%9F%BA%E4%BA%8E%E7%B2%92%E5%AD%90%E7%9A%84%E6%A8%A1%E6%8B%9F%E6%96%B9%E6%B3%95"><span class="toc-number">3.3.5.</span> <span class="toc-text">其他基于粒子的模拟方法</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec3-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E8%A7%86%E8%A7%92%EF%BC%882%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">Lec3 拉格朗日视角（2）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%B9%E6%80%A7%E4%B8%8E%E6%9C%89%E9%99%90%E5%85%83"><span class="toc-number">4.1.</span> <span class="toc-text">弹性与有限元</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BD%A2%E5%8F%98"><span class="toc-number">4.1.1.</span> <span class="toc-text">形变</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B6%85%E5%BC%B9%E6%80%A7%E6%9D%90%E6%96%99"><span class="toc-number">4.1.2.</span> <span class="toc-text">超弹性材料</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E5%8A%9B%E5%BC%A0%E9%87%8F"><span class="toc-number">4.1.3.</span> <span class="toc-text">应力张量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E7%89%A9%E7%90%86%E9%87%8F"><span class="toc-number">4.1.4.</span> <span class="toc-text">常用物理量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B6%85%E5%BC%B9%E6%80%A7%E6%A8%A1%E5%9E%8B"><span class="toc-number">4.1.5.</span> <span class="toc-text">超弹性模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%8D%95%E5%85%83%E6%B3%95"><span class="toc-number">4.1.6.</span> <span class="toc-text">有限单元法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%89%E9%99%90%E5%85%83"><span class="toc-number">4.1.7.</span> <span class="toc-text">线性三角形有限元</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BD%A2%E5%8F%98%E6%A2%AF%E5%BA%A6F%E7%9A%84%E8%AE%A1%E7%AE%97"><span class="toc-number">4.1.8.</span> <span class="toc-text">形变梯度F的计算</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%98%BE%E5%BC%8F%E7%BA%BF%E6%80%A7%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%89%E9%99%90%E5%85%83"><span class="toc-number">4.1.9.</span> <span class="toc-text">显式线性三角形有限元</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9A%90%E5%BC%8F%E7%BA%BF%E6%80%A7%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%89%E9%99%90%E5%85%83"><span class="toc-number">4.1.10.</span> <span class="toc-text">隐式线性三角形有限元</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%AA%E6%9E%81%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8"><span class="toc-number">4.2.</span> <span class="toc-text">太极的高级应用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%BC%96%E7%A8%8B"><span class="toc-number">4.2.1.</span> <span class="toc-text">面向对象数据编程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%83%E7%BC%96%E7%A8%8B"><span class="toc-number">4.2.2.</span> <span class="toc-text">元编程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%AF%E5%BE%AE%E7%BC%96%E7%A8%8B"><span class="toc-number">4.2.3.</span> <span class="toc-text">可微编程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%AF%E8%A7%86%E5%8C%96"><span class="toc-number">4.2.4.</span> <span class="toc-text">可视化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec4-%E6%AC%A7%E6%8B%89%E8%A7%86%E8%A7%92"><span class="toc-number">5.</span> <span class="toc-text">Lec4 欧拉视角</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%90%E6%96%99%E5%AF%BC%E6%95%B0"><span class="toc-number">5.1.</span> <span class="toc-text">材料导数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E5%8F%AF%E5%8E%8B%E7%BC%A9%E7%9A%84NS%E6%96%B9%E7%A8%8B"><span class="toc-number">5.2.</span> <span class="toc-text">不可压缩的NS方程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AE%97%E5%AD%90%E5%88%86%E8%A7%A3"><span class="toc-number">5.2.1.</span> <span class="toc-text">算子分解</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E6%A0%BC%E7%BB%93%E6%9E%84"><span class="toc-number">5.3.</span> <span class="toc-text">网格结构</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9D%87%E5%8C%80%E7%BD%91%E6%A0%BC"><span class="toc-number">5.3.1.</span> <span class="toc-text">均匀网格</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%A4%E9%94%99%E7%BD%91%E6%A0%BC"><span class="toc-number">5.3.2.</span> <span class="toc-text">交错网格</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E7%BA%BF%E6%80%A7%E6%8F%92%E5%80%BC"><span class="toc-number">5.3.3.</span> <span class="toc-text">双线性插值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E6%B5%81%E6%96%B9%E6%A1%88"><span class="toc-number">5.4.</span> <span class="toc-text">平流方案</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%8A%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%B9%B3%E6%B5%81"><span class="toc-number">5.4.1.</span> <span class="toc-text">半拉格朗日平流</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%A9%E5%B0%8F%E9%97%AE%E9%A2%98%EF%BC%9A%E6%98%BE%E5%BC%8F%E4%B8%AD%E7%82%B9%E6%B3%95"><span class="toc-number">5.4.2.</span> <span class="toc-text">缩小问题：显式中点法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A8%A1%E7%B3%8A%E9%97%AE%E9%A2%98%EF%BC%9A%E5%89%8D%E5%90%8E%E8%AF%AF%E5%B7%AE%E8%A1%A5%E5%81%BF%E5%92%8C%E6%A0%A1%E6%AD%A3"><span class="toc-number">5.4.3.</span> <span class="toc-text">模糊问题：前后误差补偿和校正</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%95%E5%BD%B1%E6%96%B9%E6%A1%88"><span class="toc-number">5.5.</span> <span class="toc-text">投影方案</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%8B%E6%9E%97%E6%8A%95%E5%BD%B1"><span class="toc-number">5.5.1.</span> <span class="toc-text">克林投影</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B3%8A%E6%9D%BE%E6%96%B9%E7%A8%8B"><span class="toc-number">5.5.2.</span> <span class="toc-text">泊松方程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A9%BA%E9%97%B4%E7%A6%BB%E6%95%A3%E5%8C%96"><span class="toc-number">5.5.3.</span> <span class="toc-text">空间离散化</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%BA%BF%E6%80%A7%E7%B3%BB%E7%BB%9F-1"><span class="toc-number">5.6.</span> <span class="toc-text">解线性系统</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%AD%98%E5%82%A8"><span class="toc-number">5.6.1.</span> <span class="toc-text">矩阵存储</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#krylov%E5%AD%90%E7%A9%BA%E9%97%B4%E6%B1%82%E8%A7%A3"><span class="toc-number">5.6.2.</span> <span class="toc-text">krylov子空间求解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A2%84%E5%A4%84%E7%90%86"><span class="toc-number">5.6.3.</span> <span class="toc-text">预处理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%9A%E9%87%8D%E7%BD%91%E6%A0%BC%E6%96%B9%E6%B3%95"><span class="toc-number">5.6.4.</span> <span class="toc-text">多重网格方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%E6%91%98%E8%A6%81"><span class="toc-number">5.6.5.</span> <span class="toc-text">总结摘要</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%94%B9%E8%BF%9B%E6%96%B9%E6%A1%88"><span class="toc-number">5.6.6.</span> <span class="toc-text">改进方案</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%A9%E5%B1%95%E6%96%B9%E5%90%91"><span class="toc-number">5.6.7.</span> <span class="toc-text">扩展方向</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec5-%E7%BA%BF%E6%80%A7%E5%BC%B9%E6%80%A7%E6%9C%89%E9%99%90%E5%85%83%E4%B8%8E%E6%8B%93%E6%89%91%E4%BC%98%E5%8C%96"><span class="toc-number">6.</span> <span class="toc-text">Lec5 线性弹性有限元与拓扑优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%85%83%E6%A6%82%E8%BF%B0"><span class="toc-number">6.1.</span> <span class="toc-text">有限元概述</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%85%83%E6%B3%95"><span class="toc-number">6.1.1.</span> <span class="toc-text">有限元法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E6%B3%8A%E6%9D%BE%E6%96%B9%E7%A8%8B"><span class="toc-number">6.1.2.</span> <span class="toc-text">二维泊松方程</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A6%BB%E6%95%A3%E5%8C%96%E6%B3%8A%E6%9D%BE%E6%96%B9%E7%A8%8B"><span class="toc-number">6.2.</span> <span class="toc-text">离散化泊松方程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%96%E7%AE%80"><span class="toc-number">6.2.1.</span> <span class="toc-text">化简</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A6%BB%E6%95%A3"><span class="toc-number">6.2.2.</span> <span class="toc-text">离散</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%B9%E7%95%8C%E6%9D%A1%E4%BB%B6"><span class="toc-number">6.2.3.</span> <span class="toc-text">边界条件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%BC%B9%E6%80%A7%E6%9C%89%E9%99%90%E5%85%83"><span class="toc-number">6.3.</span> <span class="toc-text">线性弹性有限元</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%85%83%E6%B3%95%E6%B1%82%E8%A7%A3"><span class="toc-number">6.3.1.</span> <span class="toc-text">有限元法求解</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8B%93%E6%89%91%E4%BC%98%E5%8C%96"><span class="toc-number">6.4.</span> <span class="toc-text">拓扑优化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec6-%E6%B7%B7%E5%90%88%E6%AC%A7%E6%8B%89-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E8%A7%86%E8%A7%92-1"><span class="toc-number">7.</span> <span class="toc-text">Lec6 混合欧拉-拉格朗日视角(1)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E6%B3%95%E5%92%8C%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%B3%95%E5%AF%B9%E6%AF%94"><span class="toc-number">7.1.</span> <span class="toc-text">欧拉法和拉格朗日法对比</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A1%E9%87%8F%E6%A8%A1%E6%8B%9F%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="toc-number">7.1.1.</span> <span class="toc-text">衡量模拟质量的因素</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E6%B3%95%E5%92%8C%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%B3%95%E5%AF%B9%E6%AF%94-1"><span class="toc-number">7.1.2.</span> <span class="toc-text">欧拉法和拉格朗日法对比</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B7%E5%90%88%E6%AC%A7%E6%8B%89-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%B3%95"><span class="toc-number">7.2.</span> <span class="toc-text">混合欧拉-拉格朗日法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%B7%E5%90%88%E6%AC%A7%E6%8B%89-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%B3%95%E6%AD%A5%E9%AA%A4"><span class="toc-number">7.2.1.</span> <span class="toc-text">混合欧拉-拉格朗日法步骤</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B4%A8%E7%82%B9%E7%BD%91%E6%A0%BC%E6%B3%95%EF%BC%88PIC%EF%BC%89"><span class="toc-number">7.2.2.</span> <span class="toc-text">质点网格法（PIC）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%BF%E5%B0%84%E7%B2%92%E5%AD%90%E5%85%83%E8%83%9E%E6%B3%95%EF%BC%88APIC%EF%BC%89"><span class="toc-number">7.2.3.</span> <span class="toc-text">仿射粒子元胞法（APIC）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%9A%E9%A1%B9%E5%BC%8F%E8%B4%A8%E7%82%B9%E7%BD%91%E6%A0%BC%E6%B3%95%EF%BC%88PolyPIC%EF%BC%89"><span class="toc-number">7.2.4.</span> <span class="toc-text">多项式质点网格法（PolyPIC）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9A%90%E5%BC%8F%E6%B5%81%E4%BD%93%E7%B2%92%E5%AD%90%EF%BC%88FLIP%EF%BC%89"><span class="toc-number">7.2.5.</span> <span class="toc-text">隐式流体粒子（FLIP）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%A9%E8%B4%A8%E7%82%B9%E6%B3%95%EF%BC%88MPM%EF%BC%89"><span class="toc-number">7.3.</span> <span class="toc-text">物质点法（MPM）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lec7-%E6%B7%B7%E5%90%88%E6%AC%A7%E6%8B%89-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E8%A7%86%E8%A7%92-2"><span class="toc-number">8.</span> <span class="toc-text">Lec7 混合欧拉-拉格朗日视角(2)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%BB%E5%8A%A8%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E7%89%A9%E8%B4%A8%E7%82%B9%E6%B3%95-MLS-MPM"><span class="toc-number">8.1.</span> <span class="toc-text">移动最小二乘物质点法(MLS-MPM)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%BF%E5%B0%84%E7%B2%92%E5%AD%90%E5%85%83%E8%83%9E%E6%B3%95%EF%BC%88APIC%EF%BC%89-1"><span class="toc-number">8.1.1.</span> <span class="toc-text">仿射粒子元胞法（APIC）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A7%BB%E5%8A%A8%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E7%89%A9%E8%B4%A8%E7%82%B9%E6%B3%95%EF%BC%88MLS-MPM%EF%BC%89"><span class="toc-number">8.1.2.</span> <span class="toc-text">移动最小二乘物质点法（MLS-MPM）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AC%E6%9E%84%E6%A8%A1%E5%9E%8B"><span class="toc-number">8.2.</span> <span class="toc-text">本构模型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%B9%E6%80%A7%E4%BD%93"><span class="toc-number">8.2.1.</span> <span class="toc-text">弹性体</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%81%E4%BD%93"><span class="toc-number">8.2.2.</span> <span class="toc-text">流体</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%B9%E5%A1%91%E6%80%A7%E4%BD%93"><span class="toc-number">8.2.3.</span> <span class="toc-text">弹塑性体</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%A9%E8%B4%A8%E7%82%B9%E6%B3%95%E4%B8%AD%E7%9A%84%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%8A%9B"><span class="toc-number">8.3.</span> <span class="toc-text">物质点法中的拉格朗日力</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/08/19/2023-8-19-%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%B8%B8%E8%A7%81%E6%95%B0%E5%80%BC%E7%A7%AF%E5%88%86%E6%96%B9%E6%B3%95/" title="常见的数值积分与解线性系统方法"><img src="https://pic1.zhimg.com/70/v2-c0b719a5abca82075338d59a53791f30_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常见的数值积分与解线性系统方法"/></a><div class="content"><a class="title" href="/2023/08/19/2023-8-19-%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%B8%B8%E8%A7%81%E6%95%B0%E5%80%BC%E7%A7%AF%E5%88%86%E6%96%B9%E6%B3%95/" title="常见的数值积分与解线性系统方法">常见的数值积分与解线性系统方法</a><time datetime="2023-08-18T16:00:00.000Z" title="发表于 2023-08-19 00:00:00">2023-08-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/07/15/2023-7-15-%E6%8B%A3%E7%88%B1/" title="拣爱"><img src="https://picx.zhimg.com/80/v2-c134406fbda5d41c5cce657f2479eb04_720w.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="拣爱"/></a><div class="content"><a class="title" href="/2023/07/15/2023-7-15-%E6%8B%A3%E7%88%B1/" title="拣爱">拣爱</a><time datetime="2023-07-14T16:00:00.000Z" title="发表于 2023-07-15 00:00:00">2023-07-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/20/2023-5-20-Unity%20Burst%20%E5%88%9D%E6%8E%A2/" title="Unity Burst 初探"><img src="https://pic1.zhimg.com/70/v2-189c5f8c6c1ff2ce71897c229bea8101_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity Burst 初探"/></a><div class="content"><a class="title" href="/2023/05/20/2023-5-20-Unity%20Burst%20%E5%88%9D%E6%8E%A2/" title="Unity Burst 初探">Unity Burst 初探</a><time datetime="2023-05-19T16:00:00.000Z" title="发表于 2023-05-20 00:00:00">2023-05-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/03/09/2023-3-9-Dynamic%20Bone%20%E7%AE%80%E6%9E%90/" title="Dynamic Bone 简析"><img src="https://picx.zhimg.com/70/v2-4abfce4c3122d36ef9506fb9608c7077_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Dynamic Bone 简析"/></a><div class="content"><a class="title" href="/2023/03/09/2023-3-9-Dynamic%20Bone%20%E7%AE%80%E6%9E%90/" title="Dynamic Bone 简析">Dynamic Bone 简析</a><time datetime="2023-03-08T16:00:00.000Z" title="发表于 2023-03-09 00:00:00">2023-03-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/25/2022-12-25-GAMES201/" title="GAMES201"><img src="https://picx.zhimg.com/70/v2-323f384f9aa03b42d04343c85cb302fd_1440w.avis?source=172ae18b&amp;biz_tag=Post" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GAMES201"/></a><div class="content"><a class="title" href="/2022/12/25/2022-12-25-GAMES201/" title="GAMES201">GAMES201</a><time datetime="2022-12-24T16:00:00.000Z" title="发表于 2022-12-25 00:00:00">2022-12-25</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 翼轸</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>(()=>{
+  const getGiscusTheme = theme => {
+    return theme === 'dark' ? 'dark' : 'light'
+  }
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'ayinzhang/ayinzhang.github.io',
+      'data-repo-id': 'R_kgDOKl3Dog',
+      'data-category-id': 'DIC_kwDOKl3Dos4CaqXe',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },null)
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const sendMessage = message => {
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: getGiscusTheme(theme)
+      }
+    });
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><!-- APlayer --><script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><meting-js server="netease" type="song" id="440355690" fixed="true"></meting-js><meting-js server="tencent" type="playlist" id="qHqhqZsRLMfS" fixed="true"></meting-js><script id="canvas_nest" defer="defer" color="0,0,0" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="且行且看,尽力而为,不要害怕,不要后悔" data-fontsize="15px" data-random="false" async="async"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
